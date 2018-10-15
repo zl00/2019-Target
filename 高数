@@ -1,0 +1,2686 @@
+{
+	"root": {
+		"id": "iezjjtul",
+		"text": "高数",
+		"color": "#3dd",
+		"layout": "map",
+		"children": [
+			{
+				"id": "cerrzgjd",
+				"text": "1. 极限",
+				"side": "right",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "zoobsmro",
+						"text": "定义",
+						"children": [
+							{
+								"id": "mlxjpego",
+								"text": "数列"
+							},
+							{
+								"id": "kplptxml",
+								"text": "函数",
+								"children": [
+									{
+										"id": "npillrkd",
+										"text": "极限值与该点函数值无关"
+									},
+									{
+										"id": "xzxlqpbs",
+										"text": "极限存在，则左右极限同时存在（考点）",
+										"color": "#3dd"
+									},
+									{
+										"id": "rpeifccf",
+										"text": "极限是无限趋于x₀，但 != x₀"
+									},
+									{
+										"id": "oymrevua",
+										"text": "🌈考点，需分别讨论",
+										"color": "#3dd",
+										"children": [
+											{
+												"id": "evemukdc",
+												"text": "无穷小：趋于0，从两边趋于0",
+												"children": [
+													{
+														"id": "yfdesaea",
+														"text": "e.g. 2^(1/x) , x → 0"
+													}
+												]
+											},
+											{
+												"id": "zmjaesoz",
+												"text": "无穷大：趋于∞，包括-<span style=\"font-size: 9.6px;\">∞， +</span><span style=\"font-size: 9.6px;\">∞</span>",
+												"children": [
+													{
+														"id": "ocvmissa",
+														"text": "e.g. arctan(x), x -→&nbsp;<span style=\"font-size: 9.6px;\">∞</span>"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "bmqcians",
+						"text": "性质",
+						"children": [
+							{
+								"id": "abttkliz",
+								"text": "一般",
+								"children": [
+									{
+										"id": "fstqdrnz",
+										"text": "唯一性"
+									},
+									{
+										"id": "cvcocdus",
+										"text": "🌈保号性",
+										"color": "#e33",
+										"children": [
+											{
+												"id": "bcenkivm",
+												"text": "what"
+											},
+											{
+												"id": "hyzqavgo",
+												"text": "证明"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "mevdcwtg",
+								"text": "存在性",
+								"children": [
+									{
+										"id": "mlcnjojy",
+										"text": "🌈🌈夹逼定理",
+										"color": "#d3d"
+									},
+									{
+										"id": "lemkxyyr",
+										"text": "<span style=\"font-size: 11.2px;\">🌈🌈</span>单调有界的数列必有极限",
+										"children": [
+											{
+												"id": "hsnfzktx",
+												"text": "有界 &lt;=&gt; 有上，下界"
+											},
+											{
+												"id": "vhjktgfe",
+												"text": "case 1：单调增，有上界"
+											},
+											{
+												"id": "glhjwdot",
+												"text": "case 2：单调减，有下界"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "srabnake",
+								"text": "无穷小",
+								"children": [
+									{
+										"id": "chevsjyy",
+										"text": "一般",
+										"children": [
+											{
+												"id": "poarczal",
+												"text": "𝞪→0, 𝞫→0&nbsp;<span style=\"font-size: 11.2px;\">𝞪与𝞫的 ➕➖✖️都是无穷小</span><br>"
+											},
+											{
+												"id": "jtiyjfza",
+												"text": "🌈lim f(x) = A &lt;=&gt; f(x) = A +&nbsp;<span style=\"font-size: 11.2px;\">𝞪,&nbsp;</span><span style=\"font-size: 11.2px;\">𝞪 → 0</span>"
+											}
+										]
+									},
+									{
+										"id": "gkhjlvfp",
+										"text": "等价",
+										"children": [
+											{
+												"id": "otcmskmh",
+												"text": "<span style=\"font-size: 11.2px;\">𝞪 ~ 𝞫 ,&nbsp;</span><span style=\"font-size: 11.2px;\">𝞫 ~&nbsp;</span><span style=\"font-size: 11.2px;\">𝝲 =&gt;&nbsp;</span><span style=\"font-size: 11.2px;\">𝞪&nbsp;</span><span style=\"font-size: 11.2px;\">~&nbsp;</span><span style=\"font-size: 11.2px;\">𝝲</span><span style=\"font-size: 11.2px;\">&nbsp;</span>"
+											},
+											{
+												"id": "hzwunlfd",
+												"text": "<span style=\"font-size: 11.2px;\">🌈𝞪 ~&nbsp;</span><span style=\"font-size: 11.2px;\">𝞪1</span><span style=\"font-size: 11.2px;\">,&nbsp;</span><span style=\"font-size: 11.2px;\">𝞫&nbsp;</span><span style=\"font-size: 11.2px;\">~ 𝞫1&nbsp; &nbsp; lim</span><span style=\"font-size: 11.2px;\">&nbsp;𝞫1/</span><span style=\"font-size: 11.2px;\">𝞪1 = A&nbsp; =&gt;&nbsp;</span><span style=\"font-size: 11.2px;\">lim</span><span style=\"font-size: 11.2px;\">&nbsp;𝞫/</span><span style=\"font-size: 11.2px;\">𝞪 = A&nbsp;</span>"
+											}
+										]
+									},
+									{
+										"id": "pfbbaktk",
+										"text": "常用等价代换(x →&nbsp; 0)",
+										"color": "#3e3",
+										"status": "yes",
+										"children": [
+											{
+												"id": "dhizbxrf",
+												"text": "x ~ sinx ~ tanx ~ arcsinx ~ arctanx ~ ln(1+x) ~ e^x - 1"
+											},
+											{
+												"id": "ltkstqyv",
+												"text": "1 - cosx ~ 1/2*x^2"
+											},
+											{
+												"id": "tqyxffxk",
+												"text": "(1+x)^a - 1 ~ ax"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "grjbphce",
+						"text": "重要极限",
+						"color": "#3e3",
+						"status": "yes",
+						"children": [
+							{
+								"id": "dlxsswlr",
+								"text": "1. 单位圆 0 &lt;x&lt;<span style=\"font-size: 11.2px;\">&nbsp;𝞹, sinx &lt; x &lt; tanx</span>",
+								"color": "#3e3"
+							},
+							{
+								"id": "nparsths",
+								"text": "2. x &gt;0, ln(1+x) &lt; x"
+							},
+							{
+								"id": "nudivafe",
+								"text": "1. lim sinx/x = 1<br>x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>"
+							},
+							{
+								"id": "ziqmyvpx",
+								"text": "2. lim (1+x)^(1/x) = e<br>x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>"
+							}
+						]
+					},
+					{
+						"id": "yuaaudvy",
+						"text": "题型",
+						"color": "#d3d",
+						"children": [
+							{
+								"id": "smtunumc",
+								"text": "一 求极限题型",
+								"color": "#d3d",
+								"children": [
+									{
+										"id": "vavzygvm",
+										"text": "1. n项和极限",
+										"children": [
+											{
+												"id": "ugsmwpcl",
+												"text": "e.g. lim[1/1*2+1/2*3+...+1/n*(n+1)]<br>n→∞<br>"
+											}
+										]
+									},
+									{
+										"id": "afyexlzb",
+										"text": "2. 不齐 =&gt; 夹逼定理",
+										"children": [
+											{
+												"id": "yzzxaijx",
+												"text": "e.g. lim[ 1/√(n^2+1) + 1/√(n^2 + 2) + ... + 1/√(n^2 + n) ]<br>n→∞<br>分析：分子次数是齐的，分母每项次数不齐<br>"
+											}
+										]
+									},
+									{
+										"id": "bvmkowbe",
+										"text": "3. 双齐 =&gt; 定积分定义",
+										"children": [
+											{
+												"id": "xonxfzfu",
+												"text": "e.g. lim[1/(n+1) + 1/(n+2) + ... + 1/(n+n)]"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "lellqxss",
+								"text": "二 数列极限存在证明",
+								"children": [
+									{
+										"id": "uzuhdqbi",
+										"text": "4. 证明数列极限存在",
+										"children": [
+											{
+												"id": "jhvjxvca",
+												"text": "e.g. 0 &lt; a1 &lt; 𝞹，an+1 = sin(an),<br>证明lim an存在，并求解。<br>",
+												"children": [
+													{
+														"id": "wthsshkt",
+														"text": "技巧： (x&gt;0时) x &gt; sin(x)",
+														"color": "#3e3",
+														"status": "yes"
+													}
+												]
+											},
+											{
+												"id": "eibbvbqi",
+												"text": "e.g. a1 = 2, an+1 = 1/2(an + 1/an), 证明<br>lim an存在<br>",
+												"children": [
+													{
+														"id": "azqwsrnt",
+														"text": "技巧：x + 1/x =&nbsp; [<span style=\"font-size: 11.2px;\">√(x) -&nbsp;</span><span style=\"font-size: 11.2px;\">√(1/x)]^2&nbsp; + 2 &gt;= 2</span>",
+														"color": "#3e3",
+														"status": "yes"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "cgbvcffb",
+								"text": "三 不定型",
+								"children": [
+									{
+										"id": "pgjhdzlb",
+										"text": "基础",
+										"children": [
+											{
+												"id": "dsvkztcx",
+												"text": "习惯",
+												"status": "yes",
+												"children": [
+													{
+														"id": "mnnkvbqv",
+														"text": "1. u(x)^v(x) =&gt; e^[ v(x) * lnu(x) ]"
+													},
+													{
+														"id": "kjsopxij",
+														"text": "2. ln()&nbsp; =&gt; ln(1+Δ) ~ Δ(Δ → 0)&nbsp;"
+													},
+													{
+														"id": "toltulme",
+														"text": "3. () - 1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>=&gt; e^Δ - 1 ~ Δ(Δ → 0)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>=&gt; (1+&nbsp;Δ)^a - 1 ~ a&nbsp;Δ(Δ → 0)<br>"
+													},
+													{
+														"id": "eoxfjrom",
+														"text": "4. x, sinx, tanx, arcsinx, arctanx两者相差为3阶无穷小"
+													}
+												]
+											},
+											{
+												"id": "jykuagzc",
+												"text": "等价无穷小误区：阶数不同时不能使用",
+												"status": "yes"
+											},
+											{
+												"id": "zpshiemm",
+												"text": "方法",
+												"children": [
+													{
+														"id": "mtlsteqn",
+														"text": "等价无穷小"
+													},
+													{
+														"id": "tffezfyd",
+														"text": "罗必达法则"
+													},
+													{
+														"id": "aodxpdws",
+														"text": "麦克劳林公式"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "opkdombc",
+										"text": "型一&nbsp; 0/0， 1^<span style=\"font-size: 11.2px;\">&nbsp;∞</span>",
+										"children": [
+											{
+												"id": "teyggpjp",
+												"text": "1. 0/0型",
+												"children": [
+													{
+														"id": "gxzcspki",
+														"text": "等价代换"
+													}
+												]
+											},
+											{
+												"id": "qtpkmepr",
+												"text": "2. 1^<span style=\"font-size: 11.2px;\">&nbsp;∞</span>",
+												"children": [
+													{
+														"id": "ijrazoom",
+														"text": "凑（1+<span style=\"font-size: 12.8px;\">&nbsp;Δ)</span><span style=\"font-size: 12.8px;\">&nbsp;^(1/</span><span style=\"font-size: 12.8px;\">Δ</span><span style=\"font-size: 12.8px;\">)</span>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "tykyzmho",
+										"text": "<span style=\"font-size: 11.2px;\">型二 ∞/</span><span style=\"font-size: 11.2px;\">∞, 0*</span><span style=\"font-size: 11.2px;\">&nbsp;∞,&nbsp;</span><span style=\"font-size: 11.2px;\">∞-</span><span style=\"font-size: 11.2px;\">∞,&nbsp;</span><span style=\"font-size: 11.2px;\">∞^0, 0^0</span>",
+										"children": [
+											{
+												"id": "fmzhrxng",
+												"text": "3.&nbsp;<span style=\"font-size: 11.2px;\">∞/</span><span style=\"font-size: 11.2px;\">∞,&nbsp;</span><span style=\"font-size: 11.2px;\">0*</span><span style=\"font-size: 11.2px;\">&nbsp;∞</span><span style=\"font-size: 11.2px;\"><br></span>&nbsp;",
+												"children": [
+													{
+														"id": "xsfdhctz",
+														"text": "1. 转化为确定型"
+													},
+													{
+														"id": "kkavslfp",
+														"text": "2. 罗必达法则"
+													},
+													{
+														"id": "qobjlvoc",
+														"text": "3. lim (bn*x^n + ... + b1*x + b0) / (am * x^m + ... + a1*x + a0)<br>x→<span style=\"font-size: 11.2px;\">∞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><br>",
+														"children": [
+															{
+																"id": "lxdozkar",
+																"text": "= 0, n &lt; m"
+															},
+															{
+																"id": "bmkkcgmq",
+																"text": "=&nbsp;<span style=\"font-size: 11.2px;\">∞, n &gt; m</span>"
+															},
+															{
+																"id": "blbfmwto",
+																"text": "= bn / am, n = m"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "evaixslx",
+												"text": "4.&nbsp;<span style=\"font-size: 11.2px;\">∞-</span><span style=\"font-size: 11.2px;\">∞</span><br>",
+												"children": [
+													{
+														"id": "llmkikgf",
+														"text": "思路：通分，化成0/0型"
+													}
+												]
+											},
+											{
+												"id": "ivwqhooy",
+												"text": "5.&nbsp;<span style=\"font-size: 11.2px;\">∞^0, 0^0</span>",
+												"children": [
+													{
+														"id": "ettlrmuy",
+														"text": "思路：=&gt; e^(ln)"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "yghvwdem",
+				"text": "2. 连续与间断",
+				"side": "right",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "hlmyykui",
+						"text": "定义",
+						"children": [
+							{
+								"id": "qsamzyon",
+								"text": "连续",
+								"children": [
+									{
+										"id": "sihhutja",
+										"text": "一点连续：极限等于函数值，则fx在x=a处连续"
+									},
+									{
+										"id": "ovxyxerc",
+										"text": "在[a，b]连续, 记作f(x)∈c[a, b]",
+										"children": [
+											{
+												"id": "yhmacpsa",
+												"text": "1. fx在（a，b）内处处连续"
+											},
+											{
+												"id": "khrxkxls",
+												"text": "2. f(a) = f(a+0), f(b) = f(b-0)"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "edtyxjiy",
+								"text": "间断",
+								"children": [
+									{
+										"id": "ctvfbuud",
+										"text": "第一类 f(a-0), f(a+0)∃",
+										"children": [
+											{
+												"id": "bqvzebkc",
+												"text": "1.可去间断点 f(a-0) = f(a+0)(!= f(a)),&nbsp;"
+											},
+											{
+												"id": "pnuqcmpc",
+												"text": "2. 跳跃间断点 f(a-0) != f(a+0)"
+											}
+										]
+									},
+									{
+										"id": "zxruiqlx",
+										"text": "第二类&nbsp;<span style=\"font-size: 12.8px;\">f(a-0), f(a+0)至少一个不∃</span>"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "bkxgrggl",
+						"text": "f(x)∈c[a, b]的性质",
+						"children": [
+							{
+								"id": "smoofsuf",
+								"text": "1. ∃ m, M"
+							},
+							{
+								"id": "qkjozfcd",
+								"text": "2. ∃ k &gt; 0, |f(x)| &lt;= k"
+							},
+							{
+								"id": "sjlyplor",
+								"text": "3. 零点定理： If f(a) * f(b) &lt; 0, 则∃𝛏∈(a, b), 使得f(𝛏)=0."
+							},
+							{
+								"id": "ectlvdek",
+								"text": "4. 介质定理：f(x)∈C[a, b], ∀𝜼∈[m, M], 则∃ 𝛏∈[a, b], 使得f(𝛏) = 𝜼."
+							}
+						]
+					},
+					{
+						"id": "buhhkbdw",
+						"text": "题型",
+						"color": "#d3d",
+						"children": [
+							{
+								"id": "wwxmceds",
+								"text": "1. 开区间 ⇒ 零点定理"
+							},
+							{
+								"id": "boghysdb",
+								"text": "2. 函数值之和，闭区间 ⇒ 介质定理"
+							},
+							{
+								"id": "cjvrdfgg",
+								"text": "间断点判断"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "uirddpoo",
+				"text": "3. 导数",
+				"side": "left",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "mpaduicq",
+						"text": "定义",
+						"children": [
+							{
+								"id": "ejtdsmgq",
+								"text": "y=f(x)(x∈D),x₀∈D, Δy = f(x₀+Δx) - f(x₀), if limΔy/Δx ∃, 则为导数<br>记为f'(x₀), dy/dx|x=x₀<br>"
+							},
+							{
+								"id": "ayhzgzos",
+								"text": "注解",
+								"children": [
+									{
+										"id": "hocdcvtj",
+										"text": "1. f'(x₀) ≜ lim [f(x) - f(x₀)] / (x - x₀)<br>x￫x₀，<br>可推出 可导 ⇒ 连续<br>"
+									},
+									{
+										"id": "telhszdf",
+										"text": "2. f'(a)∃ ⇔ f'₋(a), f'₊(a)∃"
+									},
+									{
+										"id": "hsxckqvn",
+										"text": "3. 可导 ⇒ 连续；<br>连续 ⇏ 可导。<br>"
+									},
+									{
+										"id": "btoceshg",
+										"text": "4. f(x)连续，若:<br>lim (f(x)-b)/(x-a) = A<br>x→a&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>则推出：f(a) = b, f'(a) = A<br>"
+									},
+									{
+										"id": "ubxklmsl",
+										"text": "5. f(x)可导， 偶函数 <br>⇒ f'(x)奇函数且f'(0) = 0<br>"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "wctavcof",
+						"text": "求导工具",
+						"color": "#3dd",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "fynuacpu",
+								"text": "一 基本公式",
+								"color": "#3e3",
+								"children": [
+									{
+										"id": "juintrml",
+										"text": "1. (C)' = 0"
+									},
+									{
+										"id": "jvjsanil",
+										"text": "2. (xª)' = axª⁻¹",
+										"children": [
+											{
+												"id": "hihmiyok",
+												"text": "1. (√x)' = 1/(2√x)"
+											},
+											{
+												"id": "pqolfumw",
+												"text": "2. (1/x)' = - 1/x²"
+											}
+										]
+									},
+									{
+										"id": "gpzvhffy",
+										"text": "3. (aˣ)' = aˣlna",
+										"children": [
+											{
+												"id": "xjzbpzlm",
+												"text": "(eˣ)' = eˣ"
+											}
+										]
+									},
+									{
+										"id": "dqkikhmf",
+										"text": "4. (logaˣ)' = 1/(xlna)",
+										"children": [
+											{
+												"id": "zfpqnewx",
+												"text": "(lnx)' = 1/x"
+											}
+										]
+									},
+									{
+										"id": "dhraktnj",
+										"text": "5.三角",
+										"children": [
+											{
+												"id": "wamjqfai",
+												"text": "1. (sinx)' = cosx"
+											},
+											{
+												"id": "kdnjbjjb",
+												"text": "2. (cosx)' = -sinx"
+											},
+											{
+												"id": "bhovsbcl",
+												"text": "3. (tanx)' = sec²x"
+											},
+											{
+												"id": "pzojtkzg",
+												"text": "4. (cotx)' = -csc²x"
+											},
+											{
+												"id": "yqcuvazu",
+												"text": "5. (secx)' = secxtanx"
+											},
+											{
+												"id": "xjfothoa",
+												"text": "6. (cscx)' = -cscxcotx"
+											}
+										]
+									},
+									{
+										"id": "snvzoape",
+										"text": "6.反三角",
+										"children": [
+											{
+												"id": "taoqosts",
+												"text": "1. (arcsinx)' = 1/√(1-x²)"
+											},
+											{
+												"id": "mvqypeyy",
+												"text": "2. (arccosx)' = -1/√(1-x²)"
+											},
+											{
+												"id": "tgjhtxdo",
+												"text": "3. (arctanx)' = 1/(1+x²)"
+											},
+											{
+												"id": "mldlaamb",
+												"text": "4. (arccotx)' = -1/(1+x²)"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "aqllyxhj",
+								"text": "二 四则",
+								"children": [
+									{
+										"id": "pvoxinxo",
+										"text": "1. (u+-v)' = u'+-v'"
+									},
+									{
+										"id": "atrhfagc",
+										"text": "*",
+										"children": [
+											{
+												"id": "bjzyrayt",
+												"text": "1. (uv)' = u'v + uv'"
+											},
+											{
+												"id": "uqwgwsns",
+												"text": "2. (ku)' = ku'"
+											},
+											{
+												"id": "vkeddugx",
+												"text": "3. (uvw)' = u'vw + uv'w + uvw'"
+											}
+										]
+									},
+									{
+										"id": "jipsetiy",
+										"text": "4. u/v = u'v - uv'/v²"
+									}
+								]
+							},
+							{
+								"id": "jdkxgity",
+								"text": "三 复合",
+								"children": [
+									{
+										"id": "thqredmq",
+										"text": "y=f(𝛗(x)), y' = f'(𝛗(x))*𝛗'(x)"
+									}
+								]
+							},
+							{
+								"id": "vowphiqc",
+								"text": "四 反函数求导",
+								"children": [
+									{
+										"id": "oltgjfsg",
+										"text": "定义",
+										"children": [
+											{
+												"id": "myobttgm",
+												"text": "y = f(x) ⇒ x = 𝛗(y)后者的y是自变量",
+												"children": [
+													{
+														"id": "whfaebjf",
+														"text": "e.g. 求y = ln(x+√(x²+1))反函数"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "xzgqhsbw",
+										"text": "定理",
+										"children": [
+											{
+												"id": "dxuzdpgp",
+												"text": "1. y = f(x)可导，且f'(x)!=0, x = 𝛗(y)为反函数 𝛗'(y) = 1/f'(x)",
+												"children": [
+													{
+														"id": "jlufprxg",
+														"text": "证明： <br>f'(x) = limΔy/Δx != 0 ⇒ Δy = O(Δx)<br>𝛗'(y) = limΔx/Δy = 1/f'(x)<br>"
+													}
+												]
+											},
+											{
+												"id": "larzibsj",
+												"text": "2. y = f(x)二阶可导，f'(x) != 0, x = 𝛗(y)为反函数，𝛗''(y) = [1/f'(x)]'/f'(x)<br>⚠️不是[f'(x)]'<br>",
+												"children": [
+													{
+														"id": "dwgfayfm",
+														"text": "证明：<br>𝛗''(y) = d[𝛗'(y)]/dy = d[1/f'(x)]/dy =&nbsp; d[1/f'(x)]/dx&nbsp; &nbsp; /&nbsp; &nbsp; dy/dx = [1/f'(x)]' / f'(x)<br>"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "mbjmfzyc",
+								"text": "五 高阶",
+								"children": [
+									{
+										"id": "fxujgvyw",
+										"text": "1. (sinx)⁽ⁿ⁾ = sin(x+n𝜋/2)"
+									},
+									{
+										"id": "yjheoery",
+										"text": "2. (cosx)<span style=\"font-size: 14.4px;\">⁽ⁿ⁾ = cos(x+n𝜋/2)</span>"
+									},
+									{
+										"id": "bsxniwcf",
+										"text": "3. (uv)<span style=\"font-size: 14.4px;\">⁽ⁿ⁾ = Ç⁰u</span><span style=\"font-size: 14.4px;\">⁽ⁿ⁾v + Ç¹u</span><span style=\"font-size: 14.4px;\">⁽ⁿ⁻¹⁾v' + ... + Çⁿuv</span><span style=\"font-size: 14.4px;\">⁽ⁿ⁾</span>"
+									},
+									{
+										"id": "gczrfwrf",
+										"text": "4.(1/ax+b)⁽ⁿ⁾ = (-1)ⁿ*n!*aⁿ/(ax+b)⁽ⁿ⁺¹⁾"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "licrxqur",
+						"text": "题型",
+						"color": "#d3d",
+						"children": [
+							{
+								"id": "ixncacko",
+								"text": "1. 显函数 y = f(x)",
+								"children": [
+									{
+										"id": "luifkjic",
+										"text": "e.g. y = (1+x²)^(sin2x),求y'"
+									}
+								]
+							},
+							{
+								"id": "howunctj",
+								"text": "2. 隐函数 F(x, y) = 0<br>解题思路：把y看成x的函数<br>",
+								"children": [
+									{
+										"id": "nagbnjcm",
+										"text": "e.g. 2^(xy) = 2x+y, dy|x=0 = ?"
+									}
+								]
+							},
+							{
+								"id": "pqrfpvfz",
+								"text": "3. 参数方程<br>⎰x = 𝞿(t)<br>⎱y = ψ(t)<br>⇒&nbsp; &nbsp; &nbsp; &nbsp;<br>dy/dx = dy/dt&nbsp; /&nbsp; dx/dt&nbsp; = ψ'(t) / 𝞿'(t)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>d²y/dx² = d(dy/dx)/dx = d[<span style=\"font-size: 14.4px;\">ψ'(t) / 𝞿'(t)</span>] /&nbsp;<span style=\"font-size: 14.4px;\">𝞿'(t)</span><br>",
+								"children": [
+									{
+										"id": "nqwvykgh",
+										"text": "e.g.&nbsp;<br>⎰x = t - t²&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>⎱e^(ty) = y+t+1<br>求dy/dx?<br>"
+									}
+								]
+							},
+							{
+								"id": "toppekau",
+								"text": "4. 分段",
+								"children": [
+									{
+										"id": "uvwamokt",
+										"text": "e.g.<br>1. y = ⎰sinx/x, x != 0<br>⎱1, x =0&nbsp;<br>y'?<br>"
+									}
+								]
+							},
+							{
+								"id": "zhibnure",
+								"text": "5. 高阶",
+								"children": [
+									{
+										"id": "udnesgwt",
+										"text": "e.g. y = (5x - 1)/(x²-x-2)"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "zwhleeib",
+						"text": "注意",
+						"color": "#d3d",
+						"children": [
+							{
+								"id": "dlrasqba",
+								"text": "反函数的定义，一阶导数，二阶导数"
+							},
+							{
+								"id": "wziluagr",
+								"text": "dy|x=0 与 dy/dx|x=0是不同的"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "lhdjgvng",
+				"text": "4. 可微",
+				"side": "left",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "mggreacu",
+						"text": "定义",
+						"children": [
+							{
+								"id": "yeylfiip",
+								"text": "y = f(x)(x∈D), x₀∈D, Δy = f(x₀+Δx) - f(x₀), 若=A<span style=\"font-size: 17.6px;\">Δx+𝝄(</span><span style=\"font-size: 17.6px;\">Δx),<br></span>称f(x)在x₀处可微，<span style=\"font-size: 17.6px;\">A</span><span style=\"font-size: 17.6px;\">Δx称为f(x)在x₀处的微分；<br></span>记作：<span style=\"font-size: 17.6px;\">A</span><span style=\"font-size: 17.6px;\">Δx ≜ dy|x=x₀, 习惯上</span><span style=\"font-size: 17.6px;\">dy|x=x₀ = Adx</span><br>"
+							}
+						]
+					},
+					{
+						"id": "mxheedoy",
+						"text": "注解",
+						"children": [
+							{
+								"id": "mmjwxhhb",
+								"text": "1. 可导 ⇔ 可微",
+								"children": [
+									{
+										"id": "rsldbnqa",
+										"text": "1. 证明⇒&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>∵limΔy/Δx=f'(x₀)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><span style=\"font-size: 17.6px;\">Δx→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></span><span style=\"font-size: 17.6px;\">⇒ Δy/Δx=f'(x₀)+𝞪, 𝞪→0(</span><span style=\"font-size: 17.6px;\">Δx→0)<br></span><span style=\"font-size: 17.6px;\">⇒ Δy=f'(x₀)Δx + 𝞪Δx&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>∵lim𝞪Δx/Δx = lim𝞪 = 0<br>∴𝞪Δx = 𝞸(Δx)<br>∴Δy = f'(x₀)Δx + 𝝾(Δx)&nbsp; &nbsp; &nbsp;<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><br>"
+									},
+									{
+										"id": "orvoiass",
+										"text": "2. 证明⇐<br>即 Δy = AΔx + 𝝾(Δx)<br>⇒ Δy/<span style=\"font-size: 17.6px;\">Δx = A + 𝝾(</span><span style=\"font-size: 17.6px;\">Δx)/</span><span style=\"font-size: 17.6px;\">Δx<br></span>⇒ lim<span style=\"font-size: 17.6px;\">Δy/</span><span style=\"font-size: 17.6px;\">Δx = A&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></span><span style=\"font-size: 17.6px;\">Δ→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br></span>∴f(x)在x₀处可导&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>"
+									}
+								]
+							},
+							{
+								"id": "fgrpybuo",
+								"text": "2. 若f(x)在x₀处可微，则A=f'(x₀)"
+							},
+							{
+								"id": "phflnpgs",
+								"text": "3. 若y = f(x)处处可微，<br>dy = f'(x)dx或df(x) = f'(x)dx<br>"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "qvkiqhty",
+				"text": "6. 不定积分",
+				"side": "left",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "gkcjxslz",
+						"text": "一 概念",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "aivovslo",
+								"text": "①原函数",
+								"children": [
+									{
+										"id": "fehksvju",
+										"text": "原函数 - If F'(x) = f(x), F'(x)称为f(x)的原函数"
+									},
+									{
+										"id": "cxqyvomv",
+										"text": "Note",
+										"children": [
+											{
+												"id": "ofhrknvy",
+												"text": "①若f(x)有原函数，则有无穷多个原函数，且相差常数"
+											},
+											{
+												"id": "pfymuzmj",
+												"text": "②连续函数一定有原函数，反之不对"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "lyynlbjg",
+								"text": "②不定积分",
+								"children": [
+									{
+										"id": "pxzinzrr",
+										"text": "∫f(x)dx ≜ F(x) + C"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "wgchgdtc",
+						"text": "二 工具",
+						"children": [
+							{
+								"id": "nevvxqpa",
+								"text": "①基本公式",
+								"color": "#3e3",
+								"children": [
+									{
+										"id": "izrjdjvt",
+										"text": "①∫kdx = kx + C"
+									},
+									{
+										"id": "bvbckyln",
+										"text": "②∫xªdx = 1/(a+1)xª⁺¹ (a != -1)<br>∫1/xdx = ln|x| + C<br>"
+									},
+									{
+										"id": "ahqgsydj",
+										"text": "③∫aˣdx = aˣ/lna + C<br>∫eˣdx = eˣ + C<br>"
+									},
+									{
+										"id": "jxzshmox",
+										"text": "④∫sinx dx = - cosx + C<br>∫ cosx dx = sinx + C<br>∫ tanx dx = -ln|cosx| + C<br>∫ cotx dx = ln|sinx| + C<br>∫ secx dx = ln|secx+tanx| + C<br>∫ cscx dx = ln|cscx - cotx| + C<br>∫ sec²x dx = tanx + C<br>∫ csc²x dx = -cotx + C<br>∫ secx tanx dx = secx + C<br>∫ cscx cotx&nbsp; dx = -cscx + C<br>"
+									},
+									{
+										"id": "xkujwlqt",
+										"text": "⑤<br>∫dx/√(1-x²) = arcsinx + C<br>∫dx/√(a²-x²) = arcsin(x/a) + C<br>∫dx/(1+x²) = arctanx + C<br>∫dx/(a²+x²) = 1/a arctan(x/a) + C<br>∫dx/√(x²+a²) = ln(x + √(x²+a²)) + C<br>∫dx/√(x²-a²) = ln|x + √(x² - a²)| + C<br>∫dx/(x²-a²) = 1/(2a)ln|(x-a)/(x+a)| + C<br>∫√(a²-x²)dx = a²/2 arcsin(x/a) + x/2√(a²-x²) + C<br>"
+									}
+								]
+							},
+							{
+								"id": "tzuugpyy",
+								"text": "②导数",
+								"color": "#3e3",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "onjtdyhh",
+										"text": "1. (C)' = 0"
+									},
+									{
+										"id": "rfccawkl",
+										"text": "2. (xª)' = axª⁻¹",
+										"children": [
+											{
+												"id": "isckfjqr",
+												"text": "1. (√x)' = 1/(2√x)"
+											},
+											{
+												"id": "aalbntrt",
+												"text": "2. (1/x)' = - 1/x²"
+											}
+										]
+									},
+									{
+										"id": "pmrsvpdq",
+										"text": "3. (aˣ)' = aˣlna",
+										"children": [
+											{
+												"id": "rzlzbsrk",
+												"text": "(eˣ)' = eˣ"
+											}
+										]
+									},
+									{
+										"id": "zxmseamn",
+										"text": "4. (logaˣ)' = 1/(xlna)",
+										"children": [
+											{
+												"id": "esmmezcq",
+												"text": "(lnx)' = 1/x"
+											}
+										]
+									},
+									{
+										"id": "pcwvpnqt",
+										"text": "5.三角",
+										"children": [
+											{
+												"id": "ejgcuyba",
+												"text": "1. (sinx)' = cosx"
+											},
+											{
+												"id": "obbdisan",
+												"text": "2. (cosx)' = -sinx"
+											},
+											{
+												"id": "tyeqrniu",
+												"text": "3. (tanx)' = sec²x"
+											},
+											{
+												"id": "dregahtk",
+												"text": "4. (cotx)' = -csc²x"
+											},
+											{
+												"id": "xruxlrto",
+												"text": "5. (secx)' = secxtanx"
+											},
+											{
+												"id": "lqtnavzw",
+												"text": "6. (cscx)' = -cscxcotx"
+											}
+										]
+									},
+									{
+										"id": "mgiqfavi",
+										"text": "6.反三角",
+										"children": [
+											{
+												"id": "ahuvfqve",
+												"text": "1. (arcsinx)' = 1/√(1-x²)"
+											},
+											{
+												"id": "qjbnpqrg",
+												"text": "2. (arccosx)' = -1/√(1-x²)"
+											},
+											{
+												"id": "ioyivncw",
+												"text": "3. (arctanx)' = 1/(1+x²)"
+											},
+											{
+												"id": "dfuwtwgm",
+												"text": "4. (arccotx)' = -1/(1+x²)"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "bvzfdzwi",
+								"text": "③性质",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "nxirxudr",
+										"text": "1. ∫ [f(x) ± g(x)] dx = ∫f(x)dx ± ∫g(x)dx"
+									},
+									{
+										"id": "uaeqylcv",
+										"text": "2. ∫ k f(x) dx = k ∫ f(x)dx"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "avjarprf",
+						"text": "三 积分法",
+						"children": [
+							{
+								"id": "kycrblnm",
+								"text": "①换元积分法",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "slbsuraq",
+										"text": "❶第一类",
+										"children": [
+											{
+												"id": "gvzopvpa",
+												"text": "例题",
+												"children": [
+													{
+														"id": "juxqastq",
+														"text": "⑴<br>∫ (1-1/x²) cos(x+1/x) dx&nbsp;<br>= ∫ cos(x+1/x)d(x+1/x)<br>令(x+1/x)&nbsp; = t<br>∫ cost dt = sint + C<br>= sin(x+1/x) + C<br>"
+													},
+													{
+														"id": "lylhiujo",
+														"text": "⑵<br>∫ dx / √[x(1-x)]<br>= 2∫ d(√x)/√[1-(√x)²]<br>=2arcsin(√x) + C<br>"
+													},
+													{
+														"id": "dzffoenj",
+														"text": "⑶<br>∫ dx/(x² - x - 6)<br>= ∫dx/[(x+2)(x-3)]<br>= 1/5 ∫[1/(x-3) - 1/(x+2)]dx<br>= 1/5 ∫1/(x-3)d(x-3) - 1/5∫1/(x+2)d(x+2)<br>= 1/5ln|x-3| - 1/5ln|x+2| + C<br>"
+													},
+													{
+														"id": "cgqtaplc",
+														"text": "⑷<br>∫(cosx - sinx)/(sinx+cosx)² dx&nbsp;<br>= ∫ 1/(sinx+cosx)² d(sinx+cosx)<br>= -1/(sinx+cosx) + C<br>"
+													},
+													{
+														"id": "tgrxiqeh",
+														"text": "⑸<br>∫ tanx³ secx dx = ∫ (sec²x - 1) d(secx)<br>= 1/3 sec³x - secx + C&nbsp;<br>"
+													}
+												]
+											},
+											{
+												"id": "jgjjcuoj",
+												"text": "思路",
+												"children": [
+													{
+														"id": "merwlcol",
+														"text": "∫ f[𝞿(x)]𝞿'(x)dx = ∫f[𝞿(x)]d𝞿(x)<br>令 𝞿(x) = t<br>∫f(t)dt = F(t) + C<br>= F(𝞿(x)) + C<br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "vabyrilb",
+										"text": "❷第二类",
+										"children": [
+											{
+												"id": "vroyjzlr",
+												"text": "情形",
+												"color": "#3e3",
+												"children": [
+													{
+														"id": "nvwkibal",
+														"text": "⑴平方和，平方差<br>√(a²-x²)&nbsp;<br>令x = a*sint,<br>√(a²-x²)&nbsp; = a*cost<br>",
+														"children": [
+															{
+																"id": "acojzdzg",
+																"text": "∫&nbsp; dx/[x²√(1-x²]<br>令 x = sint<br>= ∫ cost/(sin²t cost) dt = ∫csc²t dt = -√(1-x²)/x + C<br>"
+															}
+														]
+													},
+													{
+														"id": "ourzrgwn",
+														"text": "⑵√(x²+a²)<br>令x = atant<br>√(x²+a²) = a sect<br>",
+														"children": [
+															{
+																"id": "vdkjiywd",
+																"text": "∫ dx/√(x²+1)³"
+															}
+														]
+													},
+													{
+														"id": "ihywkhyj",
+														"text": "⑶√(x²-a²)<br>令 x = asect<br>√(x²-a²) = a tant<br>",
+														"children": [
+															{
+																"id": "uyibefom",
+																"text": "∫ dx/(x√x²-1)"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "sfvpnxsp",
+												"text": "思路",
+												"children": [
+													{
+														"id": "ayhfrdki",
+														"text": "无理 ⇒ 有理（不一定需要）",
+														"children": [
+															{
+																"id": "uqxymzkb",
+																"text": "∫ 1/[√x(1+x)] dx"
+															},
+															{
+																"id": "ydnjpvtq",
+																"text": "∫ √[(1-x)/(1+x)] dx<br>= ∫ (1-x)/√(1-x²) dx<br>= ∫ 1/√(1-x²) dx - ∫ x/√(1-x²)dx<br>= ∫ 1/√(1-x²) dx + ∫ -2x/2√(1-x²)dx<br>= arcsinx + ∫ d(1-x²)/[2√(1-x²)]<br>= arcsinx + √(1-x²) + C<br>"
+															},
+															{
+																"id": "kvzdkxxz",
+																"text": "∫ dx/(1+√x)<br>令 x= t²<br>= 2∫tdt/(1+t)<br>= 2∫t/(1+t) dt<br>= 2 ∫(1-1/(1+t))dt<br>= 2(t-ln|1+t|) +C<br>"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "gptlxavt",
+								"text": "②分部积分法<br><br>∫ udv = uv - ∫vdu<br>",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ihenwwag",
+										"text": "❶ ∫ xª * eˣ<br><span style=\"font-size: 11.2px;\">∫ xª *lnx<br></span><span style=\"font-size: 11.2px;\">∫ xª * 三角<br></span><span style=\"font-size: 11.2px;\">∫ xª * 反三角</span><br>",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "mgvymjtu",
+												"text": "例1: ∫x²eˣdx = ∫x²d(eˣ) = x²eˣ - ∫eˣd(x²)<br>=&nbsp;<span style=\"font-size: 11.2px;\">x²eˣ - 2</span><span style=\"font-size: 11.2px;\">∫xeˣdx<br></span>=&nbsp;<span style=\"font-size: 11.2px;\">&nbsp;</span><span style=\"font-size: 11.2px;\">x²eˣ - 2∫xd(eˣ) =&nbsp;</span><span style=\"font-size: 11.2px;\">x²eˣ - 2(xeˣ -&nbsp;</span><span style=\"font-size: 11.2px;\">∫</span><span style=\"font-size: 11.2px;\">eˣ</span><span style=\"font-size: 11.2px;\">dx</span><span style=\"font-size: 11.2px;\">)<br></span>=&nbsp;<span style=\"font-size: 11.2px;\">x²eˣ - 2</span><span style=\"font-size: 11.2px;\">xeˣ + 2</span><span style=\"font-size: 11.2px;\">eˣ + C</span><br>"
+											},
+											{
+												"id": "xolpmpge",
+												"text": "例2: ∫x²lnxdx = 1/3∫lnxd(x³)<br>= 1/3(lnx x³ - ∫x³d(lnx)<br>= 1/3x³lnx - 1/3∫x²dx<br>= 1/3x³lnx - 1/9x³<br>"
+											},
+											{
+												"id": "ctwupack",
+												"text": "例3:∫xcos²xdx = 1/2∫x(1+cos2x)dx<br>= 1/4x² + 1/4∫x d(sin2x)<br>= 1/4x² + 1/4(xsin2x - ∫sin2xdx)<br>"
+											},
+											{
+												"id": "rjhmfwrf",
+												"text": "例4: ∫ xarctanx dx = 1/2∫arctanx dx²<br>= 1/2(x²arctanx-∫x²d(arctanx))<br>= 1/2<span style=\"font-size: 14.4px;\">x²arctanx - 1/2∫x²/(1+x²)dx<br></span><span style=\"font-size: 14.4px;\">= 1/2</span><span style=\"font-size: 14.4px;\">x²arctanx - 1/2∫(1-1/(1+x²))dx<br></span>...<br>"
+											},
+											{
+												"id": "ueyvxcuv",
+												"text": "例5: ∫arcsinx dx&nbsp;"
+											}
+										]
+									},
+									{
+										"id": "crmagfyf",
+										"text": "❷∫eªˣ cosbx dx<br><span style=\"font-size: 14.4px;\">eªˣ sinbx dx</span><br>",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "psobfmfp",
+												"text": "e.g.1: ∫e²ˣcosxdx<br>I =&nbsp;<span style=\"font-size: 14.4px;\">∫e²ˣcosxdx<br></span>= ∫<span style=\"font-size: 14.4px;\">e²ˣd(sinx)<br></span>=&nbsp;<span style=\"font-size: 14.4px;\">e²ˣ</span><span style=\"font-size: 14.4px;\">sinx - 2</span><span style=\"font-size: 14.4px;\">∫</span><span style=\"font-size: 14.4px;\">sinx</span><span style=\"font-size: 14.4px;\">e²ˣdx =&nbsp;</span><span style=\"font-size: 14.4px;\">e²ˣ</span><span style=\"font-size: 14.4px;\">sinx + 2</span><span style=\"font-size: 14.4px;\">∫</span><span style=\"font-size: 14.4px;\">e²ˣd(cosx)<br></span><span style=\"font-size: 14.4px;\">=&nbsp;</span><span style=\"font-size: 14.4px;\">e²ˣ</span><span style=\"font-size: 14.4px;\">sinx + 2</span><span style=\"font-size: 14.4px;\">e²ˣcosx - 4</span><span style=\"font-size: 14.4px;\">∫</span><span style=\"font-size: 14.4px;\">cosx</span><span style=\"font-size: 14.4px;\">e²ˣdx<br></span><span style=\"font-size: 14.4px;\">=&nbsp;</span><span style=\"font-size: 14.4px;\">=&nbsp;</span><span style=\"font-size: 14.4px;\">e²ˣ</span><span style=\"font-size: 14.4px;\">sinx + 2</span><span style=\"font-size: 14.4px;\">e²ˣcosx -&nbsp;4I<br><br></span><span style=\"font-size: 14.4px;\">⇒ I = 1/5</span><span style=\"font-size: 14.4px;\">e²ˣ(sinx+2cosx) + C</span><span style=\"font-size: 14.4px;\"><br>&nbsp;</span><br>"
+											}
+										]
+									},
+									{
+										"id": "tbwbhsqy",
+										"text": "❸ ∫ secⁿx dx<br>∫ cscⁿx dx<br>",
+										"children": [
+											{
+												"id": "xhmqsatb",
+												"text": "⒈If n is even number, don't need 分部积分法<br>∫sec⁴x dx = ∫(1+tan²x)d(tanx)&nbsp;<br>"
+											},
+											{
+												"id": "lhalhjxd",
+												"text": "⒉If n is 1<br>∫secx dx = ln|sexc+tanx| + C<br>∫cscx dx = ln|cscx-cotx| + C<br>"
+											},
+											{
+												"id": "ygdnqdwz",
+												"text": "⒊&nbsp;<span style=\"font-size: 11.2px;\">where n is an odd number</span><br>∫sec³xdx<br>I = ∫<span style=\"font-size: 11.2px;\">sec³xdx =&nbsp;</span><span style=\"font-size: 11.2px;\">∫</span><span style=\"font-size: 11.2px;\">secxd(tanx)<br></span>= secxtanx - ∫tan²x secx dx<br>=&nbsp;<span style=\"font-size: 11.2px;\">secxtanx - ∫secx(sec²x-1)dx<br></span>=&nbsp;<span style=\"font-size: 11.2px;\">secxtanx -I + ln|secx+tanx|</span><br>"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "slawmrcm",
+								"text": "③两类特殊不定积分",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "cxsfrbvc",
+										"text": "❶∫R(x) dx<br>R(x) = P(x)/Q(x)<br><br>",
+										"children": [
+											{
+												"id": "jxlxzhgh",
+												"text": "case",
+												"color": "#3e3",
+												"children": [
+													{
+														"id": "sofsckfy",
+														"text": "⒈ deg P ≧ degQ ⇒&nbsp;<br>R(x) = 多项式 + 真分式<br>",
+														"children": [
+															{
+																"id": "rfqmjpxc",
+																"text": "R(x) = (x³ - 5x + 12)/(x+1)<br>= x² - x -4 + 16/(x+1)<br>"
+															}
+														]
+													},
+													{
+														"id": "ozdkxemq",
+														"text": "⒉&nbsp;<span style=\"font-size: 11.2px;\">deg P &lt; degQ ⇒ R(x)为真分式<br>R(x) ⇒ 部分和<br></span>",
+														"children": [
+															{
+																"id": "nokmqlyx",
+																"text": "㊀ （3x+2)/[(2x+1)(x-1)] = A/(2x+1) + B/(x-1)"
+															},
+															{
+																"id": "vnwtefxm",
+																"text": "㊁ (3x-12)/[(x-1)²(x+2)] = A/(x-1) + B/(x-1)² + C/(x+2)<br><br>分母： (x-1)³ = A/(x-1) + B/<span style=\"font-size: 11.2px;\">(x-1)² + C/</span><span style=\"font-size: 11.2px;\">(x-1)³</span><br>"
+															},
+															{
+																"id": "eydbqsiy",
+																"text": "㊂(x+2)/[(x²+1)(2x+1)] = (Ax+B)/(x²+1) + C/(2x+1)"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "yqiuykvz",
+												"text": "例题",
+												"children": [
+													{
+														"id": "opjggncm",
+														"text": "∫dx/(x² - x - 12)"
+													},
+													{
+														"id": "piieufao",
+														"text": "∫ dx/(x²+x+1) = ∫d(x+1/2)/[(√3/2)²+(x+1/2)²]"
+													},
+													{
+														"id": "kcbjcpic",
+														"text": "∫(5x-1)/(x²-x-2)dx"
+													},
+													{
+														"id": "hmwtvlyz",
+														"text": "∫(x+1)/(x²+x+1)dx = 1/2 ∫[(2x+1)+1]/<span style=\"font-size: 11.2px;\">(x²+x+1) dx<br></span>= 1/2∫d<span style=\"font-size: 11.2px;\">(x²+x+1)/</span><span style=\"font-size: 11.2px;\">(x²+x+1) + 1/2 ∫1/</span><span style=\"font-size: 11.2px;\">(x²+x+1)dx</span><br>"
+													},
+													{
+														"id": "rsdibhxs",
+														"text": "∫dx/[x(x-1)²]"
+													},
+													{
+														"id": "urpsfprs",
+														"text": "∫dx/[x(x⁶+3)] = 1/6<span style=\"font-size: 11.2px;\">∫dx⁶/[x⁶(x⁶+3)]&nbsp;</span><br>&nbsp;"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "gleqxmoi",
+				"text": "5. 一元微分的应用",
+				"side": "right",
+				"children": [
+					{
+						"id": "iuswhaes",
+						"text": "<span style=\"font-size: 11.52px;\">🌈</span>中值定理",
+						"children": [
+							{
+								"id": "brrodcvk",
+								"text": "定理",
+								"children": [
+									{
+										"id": "skejxsjz",
+										"text": "中值定理",
+										"children": [
+											{
+												"id": "mngmtlco",
+												"text": "1. Rolle",
+												"children": [
+													{
+														"id": "nxwrwidt",
+														"text": "⎰1. f(x) ∈ C[a, b];&nbsp; &nbsp;<br>{&nbsp; 2. (a,b)内可导;&nbsp;&nbsp;<br>⎱3. f(a) = f(b)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>⇒ ∃𝛏∈(a,b), 使f'(𝛏) = 0<br>",
+														"children": [
+															{
+																"id": "vgzwihya",
+																"text": "证明：<br>1. f(x) ∈ C[a, b] ⇒ ∃ m, M&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>2. case 1. m = M, f(x)≡C₀&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>∀𝛏∈(a, b), f'(𝛏) = 0;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>3. case 2. m &lt; M&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>∵ f(a) = f(b)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>∴m,M至少一个在(a,b)内取&nbsp; &nbsp; &nbsp;&nbsp;<br>设𝛏∈(a,b), f(𝛏) = M&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>⇒ f'(𝛏) = 0 或者 f'(𝛏)不存在。<br>∵f(x)在(a,b)内可导&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>∴∃f'(𝛏) = 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "jjvvubxr",
+												"text": "2. 🌈🌈Lagrange",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "cztlhlpj",
+														"text": "⎰f(x)∈C[a, b]&nbsp;<br>⎱(a,b)内可导<br>⇒ ∃𝛏∈(a,b),使f'(𝛏) = (f(b)-f(a))/(b-a)<br>",
+														"collapsed": 1,
+														"children": [
+															{
+																"id": "qllcrrxi",
+																"text": "Note1.<br>f'(<span style=\"font-size: 9.6px;\">𝛏) = (f(b)-f(a))/(b-a) ⇔ f(b) - f(a) = f'(</span><span style=\"font-size: 9.6px;\">𝛏)(b-a)<br></span>⇔ f'[a+𝞱(b-a)](b-a) 𝞱∈(0,1)<br>"
+															},
+															{
+																"id": "njxjxvyy",
+																"text": "Note 2.<br>f(b) = f(a), L ⇒ R<br>"
+															},
+															{
+																"id": "rfcwtqye",
+																"text": "Note 3.<br>三种思维<br>",
+																"color": "#d3d",
+																"children": [
+																	{
+																		"id": "cqhivkqc",
+																		"text": "f(b) - f(a) - L"
+																	},
+																	{
+																		"id": "xawbavfw",
+																		"text": "f(a), f(c), f(b) - 2次L<br>"
+																	},
+																	{
+																		"id": "buwbwowl",
+																		"text": "f → f' - L"
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "kdlixfxf",
+												"text": "3. Cathy",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "indlrnkt",
+														"text": "⎰f(x), g(x)∈C[a,b]<br>{ (a,b)内可导&nbsp; &nbsp; &nbsp; &nbsp;<br>⎱g'(x) != 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>⇒ (f(b)-f(a))/(g(b)-g(a)) = f'(𝛏)/g'(𝛏)<br>",
+														"collapsed": 1,
+														"children": [
+															{
+																"id": "scorzeta",
+																"text": "Note1.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>g'(x) != 0 ⇒&nbsp;&nbsp;<br>⎰g'(𝛏) != 0&nbsp; &nbsp; &nbsp; &nbsp;<br>⎱g(b)-g(a)!=0<br>"
+															},
+															{
+																"id": "zkicqgft",
+																"text": "Note2.<br>g'(x) != 0 ( a &lt; x &lt; b)<br>g'(a) = 0或g'(b)=0,Cauthy依然成立<br>"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "gycgzmsj",
+												"text": "4. Taylor",
+												"collapsed": 1,
+												"children": [
+													{
+														"id": "gdnhpjvl",
+														"text": "条件：f(x)在x=x₀的领域内n+1阶可导<br>结论：f(x) = Pn(x) + Rn(x)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>Pn(x) = f(x₀) + f'(x₀)(x-x₀) + f''(x₀)/2!(x-x₀)²+...+f⁽ⁿ⁾(x₀)/n!(x-x₀)ⁿ<br>Rn(x) = ⎰f⁽ⁿ⁺¹⁾(𝛏)/(n+1)!(x-x₀)ⁿ⁺¹<br>⎱o(x-x₀)ⁿ&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>",
+														"collapsed": 1,
+														"children": [
+															{
+																"id": "jndqacyv",
+																"text": "x = 0时,麦克劳林公式<br>f(x) = f(x₀) + f'(0)x + f''(0)/2!x²+...+f⁽ⁿ⁾(0)/n!xⁿ + Rn(x)<br>"
+															},
+															{
+																"id": "idrqksju",
+																"text": "常用公式",
+																"color": "#3e3",
+																"children": [
+																	{
+																		"id": "dqbndjyj",
+																		"text": "1. eˣ = 1 + x + x²/2! + ... + xⁿ/n! + o(xⁿ)"
+																	},
+																	{
+																		"id": "xoejggqh",
+																		"text": "2. sinx = x - x³/3! + x⁵/5! + ... + (-1)ⁿx²ⁿ⁺¹/(2n+1)! + o()"
+																	},
+																	{
+																		"id": "urvbridf",
+																		"text": "3. cosx = 1 - x²/2! + x⁴/4! + ... + (-1)ⁿx²ⁿ/(2n)! + o()"
+																	},
+																	{
+																		"id": "gmcfoogn",
+																		"text": "4. 1/(1-x) = 1 + x + x² + .. + xⁿ + o()"
+																	},
+																	{
+																		"id": "yoakhqja",
+																		"text": "5. ln(1+x) = x - x²/2 + x³/3 + ... + (-1)ⁿ⁻¹xⁿ/n + o()"
+																	},
+																	{
+																		"id": "bjkamdzf",
+																		"text": "6. (1+x)ª = 1 + ax + a(a-1)/2!x² + ... + a(a-1).../n!xⁿ + o()"
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "jxwufqla",
+								"text": "定理本质是：f(x)与f'(x)的关系",
+								"color": "#e33"
+							},
+							{
+								"id": "ouwtgxnf",
+								"text": "题型",
+								"color": "#d3d",
+								"children": [
+									{
+										"id": "lyzrwelt",
+										"text": "L",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "pflvuvez",
+												"text": "型一&nbsp; f⁽ⁿ⁾₍𝛏₎ = 0",
+												"children": [
+													{
+														"id": "ppxthhqg",
+														"text": "🌈e.g. f(x)∈C[0,2],(0,2)内可导，且3f(0)=(f(1)+2f(2)),证明：∃𝛏∈(0, 2),使f'(𝛏) = 0",
+														"children": [
+															{
+																"id": "mbbayiua",
+																"text": "1. f(x)∈C[1,] ⇒ f(x)在[1,2]上有m, M<br>m ≦ (f(1)+2f(2))/3 ≦ M<br>介值定理 ⇒ ∃ c ∈ [1, 2]，使f(c) =&nbsp;<span style=\"font-size: 9.6px;\">(f(1)+2f(2))/3<br></span>2. ∵ f(0) = f(c)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>∴根据Lua定理，∃ 𝛏∈(0, 2), 使f'(𝛏) = 0<br>&nbsp;<br>"
+															}
+														]
+													},
+													{
+														"id": "efiwgtae",
+														"text": "e.g. f(x)在[0,1]上3阶可导，f(1) = 0, F(x) = x³f(x), 证明：∃ 𝛏∈(0, 1), 使F⁽³⁾(𝛏) = 0"
+													}
+												]
+											},
+											{
+												"id": "nsmlxiod",
+												"text": "型二&nbsp; L三种思维",
+												"children": [
+													{
+														"id": "bztrlqil",
+														"text": "思维一&nbsp;&nbsp;<span style=\"font-size: 9.6px;\">f(b) - f(a)&nbsp;</span><br>f'(x) &gt; 0, f''(x) &gt; 0, Δx &gt; 0, dy = f'(x₀)Δx, Δy = f(x₀+Δx) - f(x₀),问0， Δy, dy大小？<br>"
+													},
+													{
+														"id": "zbttnlvn",
+														"text": "思维二 f(a), f(c), f(b) 2次L<br>f(x)[a,b]可导，|f'(x)| ≦ M, f(x)(a,b)内至少一个零点，证：|f(a)| +|f(b)| ≦ M(b-a)<br>"
+													}
+												]
+											},
+											{
+												"id": "hzhhrqwm",
+												"text": "型三 仅有𝛏",
+												"children": [
+													{
+														"id": "jwifafgc",
+														"text": "一 还原法&nbsp; [lnf(x)]' =&nbsp;<span style=\"font-size: 9.6px;\">f'(x)/f(x)<br></span><span style=\"font-size: 9.6px;\">1. 化成 [㏑(fx)]' + [ln(gx)]' = 0;<br></span><span style=\"font-size: 9.6px;\">2. 构成新函数Ψ(x) = f(x)*g(x)</span><span style=\"font-size: 9.6px;\"><br></span>",
+														"children": [
+															{
+																"id": "caolqvxr",
+																"text": "A/x → ln(xᴬ)<br><span style=\"font-size: 9.6px;\">A → ln(eᴬˣ)</span><br>"
+															},
+															{
+																"id": "xismsvee",
+																"text": "e.g.<br>f(x)∈C[0,1], (0,1)内可导， f(1) = 0.证明：∃𝛏∈(0,1),&nbsp; 使𝛏f'(𝛏) + 2f(𝛏) = 0.<br>"
+															}
+														]
+													},
+													{
+														"id": "nkdiinnr",
+														"text": "二 分组法",
+														"children": [
+															{
+																"id": "vuafbgoq",
+																"text": "e.g.<br>f(x)在(-1, 1)二阶可导，奇函数。f'(-1) = 1. 证明：∃𝛏∈(-1, 1),使f''(𝛏) - f'(𝛏) + 1 = 0<br>"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "wakrxrza",
+												"text": "型四 ξ, a, b",
+												"children": [
+													{
+														"id": "dldeexsg",
+														"text": "一 可分：<br>1. 𝛏与a，b分离<br>2. a，b侧&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>⇒<br>⎰1. f(b) - f(a) 或 (f(b) - f(a))/ (b - a) → L<br>⎱2. (f(b) - f(a))/ (g(b) - g(a) → C&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>",
+														"children": [
+															{
+																"id": "yexpdicf",
+																"text": "e.g.<br>f(x)∈C[a,b],(a,b)内可导(a &gt; 0),证明：∃𝛏∈(a, b), 使f(b) - f(a) = 𝛏f'(𝛏)*ln(b/a)<br>"
+															}
+														]
+													},
+													{
+														"id": "sqyjmulz",
+														"text": "二 不可分：凑微法<br>1. 𝛏 → x&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>2. 去分母，移项<br>⇒ 式子 = 0 ⇒[𝛗(x)]' = 0.<br>",
+														"children": [
+															{
+																"id": "uubeaazq",
+																"text": "e.g.<br>f(x), g(x) ∈ C[a, b], (a, b)内可导，g'(x) != 0。证明：∃𝛏∈(a, b),使(f(𝛏)-f(a))/(g(b) - g(𝛏)) = f'(𝛏)/g'(𝛏).<br>"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "qsvxiltj",
+												"text": "型五 𝛏,𝛈",
+												"children": [
+													{
+														"id": "dfnyjqqe",
+														"text": "🌈一 𝛈𝛏复杂度不同<br>1. 留复杂<br>2. 复杂中值项<br>⎰(&nbsp; )' - L&nbsp; &nbsp;&nbsp;<br>⎱()'/()' - C<br>",
+														"children": [
+															{
+																"id": "ayjrqqws",
+																"text": "e.g.<br>f(x)∈C[a, b], (a, b)内可导(a&gt;0).<br>证明：∃𝛏，𝛈∈(a, b)，使f'(𝛏) = (a+b)* f'(𝜼)/(2𝜼)<br>"
+															}
+														]
+													},
+													{
+														"id": "xuatmdjm",
+														"text": "二 e.g.<br>f(x)∈C[0,1], (0,1)内可导，f(0)=0, f(1) = 1.<br>证明：①∃c∈(0,1), f(c) = 1-c<br>②∃𝛏,𝛈∈(0,1), f'(𝛏)f'(𝛈) = 1<br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "ehwgejoo",
+										"text": "Taylor",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "zhprcbkx",
+												"text": "型一 极限",
+												"children": [
+													{
+														"id": "tzyayyoh",
+														"text": "①lim [e^(-x²/2 - 1) - 1 + x²/2]/(x³sinx)<br>x → 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>"
+													},
+													{
+														"id": "mqggxaye",
+														"text": "②lim(√(1+x) + √(1-x) - 2)/x²<br>"
+													},
+													{
+														"id": "oaivpfwh",
+														"text": "③eˣ/(1-2x) = 1 + Ax + Bx² + o(x²) (x→0),求A，B<br>"
+													}
+												]
+											},
+											{
+												"id": "hcdgofhp",
+												"text": "型二 f''(x) &gt; 0( &lt; 0)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>❶f''(x) ⇒ f'(x) ↑&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>❷f''(x) &gt; 0 ⇒ 凹函数<br>切线： y - f(x₀) = f'(x₀)(x-x₀) 即：y = f(x₀) + f'(x₀)(x-x₀)<br>∵凹函数<br>∴f(x) ≧ f(x₀) + f'(x₀)(x-x₀)<br>",
+												"children": [
+													{
+														"id": "yixafdof",
+														"text": "❶f''(x) &gt; 0, f(0) = 0, 0 &lt; a &lt; b.证明：f(a) + f(b) &lt; f(a+b)"
+													},
+													{
+														"id": "uirjyhdy",
+														"text": "❷f''(x) &gt; 0, lim(f(x) - 1)/x =&nbsp;<br>&nbsp;x→0<br>证明：f(x)≧1+x<br>"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "thbhsvgj",
+						"text": "🌈极值",
+						"children": [
+							{
+								"id": "hvnkuovn",
+								"text": "方法",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "sxeavgss",
+										"text": "1. x∈D&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>2. f'(x) ⎰ = 0（驻点）&nbsp;&nbsp;<br>⎱不存在<br>（不一定是极值点）<br>3. 判别法：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>法❶（一阶法）<br>⎰x &lt; x₀, f'(x) &gt; 0<br>⎱x &gt; x₀, f'(x) &lt; 0<br>⇒ x₀极大点<br>法❷（二阶法）<br>设f'(x₀) = 0, f''(x₀)⎰ &gt; 0，小&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>⎱&lt; 0 ，大<br><br>"
+									}
+								]
+							},
+							{
+								"id": "dpgmfxng",
+								"text": "题型",
+								"color": "#d3d",
+								"children": [
+									{
+										"id": "nlslgsxc",
+										"text": "型一&nbsp; 极值点判断",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "iyoeyiyb",
+												"text": "①f(x)连续， lim (f(x) - 2)/ x² = 3, x = 0?<br>x → 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>",
+												"children": [
+													{
+														"id": "xnwsibxm",
+														"text": "解：<br><span style=\"font-size: 9.6px;\">lim (f(x) - 2)/ x² = 3</span><br style=\"font-size: 9.6px;\"><span style=\"font-size: 9.6px;\">x → 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></span>⇒ <br>1. f(0) = 2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>2. ∃𝝳&gt;0,当0&lt;|x| &lt; 𝝳时， (f(x) - 2)/x² &gt; 0, ∴f(x) &gt; 2<br>∴x=0为极小点<br>"
+													}
+												]
+											},
+											{
+												"id": "vuveheao",
+												"text": "②f'(1) = 0, lim f'(x)/(x-1)³ = -2 &lt; 0, x = 1?<br>x → 1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>"
+											}
+										]
+									},
+									{
+										"id": "gxhuglub",
+										"text": "🌈型二 不等式证明",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "mvulwivm",
+												"text": "①单调性法<br>e &lt; a &lt; b, 证明：aᵇ &gt; bª<br>",
+												"children": [
+													{
+														"id": "oaandiuc",
+														"text": "证：<br><span style=\"font-size: 9.6px;\">aᵇ &gt; bª ⇔ blna &gt; alnb<br></span>令𝛗(x) = xlna - alnx, 𝛗(a) = 0.<br>𝛗'(x) = lna - a/x (x &gt; a)<br>∵ ⎰𝛗(a) = 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>⎱𝛗'(x) &gt; 0 (x &gt; a)<br>∵b &gt; a, ∴𝛗(b) &gt; 0<br>"
+													}
+												]
+											},
+											{
+												"id": "lsxkphgf",
+												"text": "②中值定理法<br>⎰①f(b) - f(a) 或 (f(b) - f(a))/(b-a) - L<br>⎱②(f(b) - f(a)) / (g(b) - g(a)) - C&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>",
+												"children": [
+													{
+														"id": "aauipjvv",
+														"text": "e.g. x &gt; 0, 证明：x/(1+x)&nbsp; &lt; ln(1+x) &lt; x<br>证明：<br>f(t) = ln(1+t)<br>ln(1+x) = f(x) - f(0) = f'(𝛏)x = x/(1+𝛏), 𝛏∈(0,x)<br>∵ x/(1+x) &lt;&nbsp;<span style=\"font-size: 9.6px;\">x/(1+𝛏) &lt; x<br></span>∴...<br>"
+													}
+												]
+											},
+											{
+												"id": "cgcxztcp",
+												"text": "③最值法<br>f(x) ≧ M₁, f(x) ≦ M₂<br>找到 f(x)的m，m≧M₁；&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>f(x)的M，M≦M₂。<br>",
+												"children": [
+													{
+														"id": "zxlamowo",
+														"text": "e.g. p &gt; 1, x∈[0,1],证明：<br>2^(1/(p-1)) ≦ x^p + (1 -x)^p ≦ 1<br>证明：<br>令f(x) =&nbsp;<span style=\"font-size: 12.8px;\">x^p + (1 -x)^p<br></span>...<br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "hhzsycla",
+										"text": "🌈型三 方程解或者 函数零点讨论",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "gklkyyik",
+												"text": "①零点定理<br>f(x) ∈ c[a, b], f(a)f(b) &lt; 0<br>⇒ ∃ c ∈(a, b), 使得f(c) = 0<br>"
+											},
+											{
+												"id": "xtwqirac",
+												"text": "②Rolle<br>f(x) ⇒F(x)<br>If F(a) = F(b), 则∃c∈(a,b)，使得F'(c) = 0<br>",
+												"children": [
+													{
+														"id": "qhyjapoz",
+														"text": "e.g.<br>证明：eˣ = -x²+4x不可能有3个不同根。<br>",
+														"children": [
+															{
+																"id": "sdyqlhwg",
+																"text": "证明：[反证]<br>令f(x) =&nbsp;<span style=\"font-size: 12.8px;\">eˣ + x² - 4x<br></span>设x1 &lt; x2 &lt; x3,且f(x1) = f(x2) = f(x3) = 0<br>∃𝛏1∈(x1, x2),&nbsp;<span style=\"font-size: 12.8px;\">𝛏2∈(x2, x3),f'(</span><span style=\"font-size: 12.8px;\">𝛏1) = f'(</span><span style=\"font-size: 12.8px;\">𝛏2) = 0.<br></span>∃<span style=\"font-size: 12.8px;\">𝛏∈(</span><span style=\"font-size: 12.8px;\">𝛏1,&nbsp;</span><span style=\"font-size: 12.8px;\">𝛏2), f''(</span><span style=\"font-size: 12.8px;\">𝛏) = 0<br></span>而f''(x) = eˣ + 2 != 0矛盾<br>"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "kyesrdgi",
+												"text": "③单调性<br>1. 找f(x)，x的范围<br>2. f'(x) ⎰=0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>⎱ 不存在<br>3. 关注2侧<br>M &lt; 0，0个&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>M = 0，1个&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>M &gt; 0，2个，1个，0个&nbsp;<br>",
+												"children": [
+													{
+														"id": "rqzpqngx",
+														"text": "e.g.<br>讨论lnx = x/e - 2√2几个根？<br>",
+														"children": [
+															{
+																"id": "oknltagi",
+																"text": "解：<br>令 f(x) = lnx - x/e + 2√2(x &gt; 0).<br>f'(x) = 1/x - 1/e, f'(e) = 0;<br>f''(e) = -1/e² &lt; 0<br>⇒ x = e,为最大点，即M=f(e) = 2√2 &gt; 0.<br><br>①limf(x) = -∞<br>x → 0⁺&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>②limf(x) = -∞<br>x → +∞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>",
+																"children": [
+																	{
+																		"id": "bqjhdjyb",
+																		"text": "知识点：<br>x → +∞,<br>aˣ&nbsp; &gt; xª &gt;&nbsp; logaˣ<br>",
+																		"color": "#3e3"
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "jnejmsgi",
+						"text": "零碎知识",
+						"children": [
+							{
+								"id": "juoinnok",
+								"text": "知识",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "hhrnddbk",
+										"text": "❶凹凸性",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "vjncaiuw",
+												"text": "1. 凹凸性<br>def - y = f(x) (x∈D),<br>If ∀x1, x2∈D且x1 != x2, 有<br>f((x1+x2)/2) &lt; (f(x1)+f(x2))/2<br>称f(x)为下凹曲线<br>"
+											},
+											{
+												"id": "aexpntoh",
+												"text": "判别法<br>if f''(x) &gt; 0, 凹<br>if f''(x) &lt; 0, 凸<br>",
+												"children": [
+													{
+														"id": "fshupgml",
+														"text": "Note①<br>x &lt; x0, f'' &gt; 0<br>x &gt; x0, f'' &lt; 0<br>称(x0, f(x0))为y = f(x)的拐点<br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "pazqlowj",
+										"text": "❷渐近线",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "kjelcpga",
+												"text": "①水平&nbsp;<br>If limf(x) = A,&nbsp;<br>x→∞&nbsp; &nbsp; &nbsp; &nbsp;<br>y = A为水平渐近线<br>"
+											},
+											{
+												"id": "ofmcenin",
+												"text": "②垂直渐近线<br>If ⎰f(a-0) = ∞&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>{&nbsp; f(a+0) = ∞&nbsp;&nbsp;<br>⎱limf(x) = ∞&nbsp;&nbsp;<br>x→a&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>"
+											},
+											{
+												"id": "nftvknfv",
+												"text": "③斜渐近线<br>If limf(x)/x = a(!= 0, ∞)<br>x→∞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>lim[f(x) - ax] = b&nbsp; &nbsp; &nbsp;<br>x→∞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>"
+											}
+										]
+									},
+									{
+										"id": "yqfvvylr",
+										"text": "❸弧微分",
+										"collapsed": 1,
+										"children": [
+											{
+												"id": "zjzmrgza",
+												"text": "<span style=\"font-size: 9.6px;\">（Δs)² ≊ (Δx)² + (Δy)²</span><br style=\"font-size: 9.6px;\"><span style=\"font-size: 9.6px;\">(ds)² = (dx)² + (dy)²</span><br>",
+												"children": [
+													{
+														"id": "zmtozcbb",
+														"text": "①L: y = f(x),<br>ds = √(1+(dy/dx)²)*dx = √(1+f'(x))*dx<br>"
+													},
+													{
+														"id": "roibiswy",
+														"text": "②L: ⎰x = 𝛗(t)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>⎱y = 𝛟(t)<br>ds = √((dx)² + (dy)²) = √((dx/dt)² + (dy/dt)²)dt<br>= √(𝛗'²(t) +𝛟'²(t))dt<br>"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "wurdywte",
+								"text": "题型",
+								"color": "#d3d",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "gebgnmqx",
+										"text": "y = f(x) = (x²-3x+2)/(x²-1)*e^(1/x)"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "yttcdlpy",
+				"text": "进度：43",
+				"side": "right"
+			},
+			{
+				"id": "ssuhafnx",
+				"text": "7. 定积分",
+				"side": "left",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "gdypugwb",
+						"text": "背景",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "ycpjldqe",
+								"text": "原始思路",
+								"children": [
+									{
+										"id": "ntfviumb",
+										"text": "⒈ a = x₀ &lt; x₁ &lt; ... &lt; x₍n₎ = b<br>[a, b] = [x₀, x₁] ∪ [x₁, x₂] ∪ ... ∪ [x₍n-1₎, x₍n₎]<br>2. ∀𝛏𝒾∈[x𝒾-1, x𝒾]<br>Δs𝒾 ≊ f(𝛏𝒾) Δx𝒾<br>n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>S ≊ ∑f(𝛏𝒾)Δx𝒾<br>𝒾=1&nbsp; &nbsp; &nbsp;&nbsp;<br>3. 𝛌=max{Δx₁, Δx₂...}<br>&nbsp; &nbsp; &nbsp; n&nbsp;&nbsp;<br>S = lim&nbsp; &nbsp; &nbsp;∑f(𝛏𝒾)Δx<br>𝛌→0&nbsp; &nbsp; 𝒾=1&nbsp; &nbsp;<br>"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "rlysobls",
+						"text": "定义",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "hlmzluxh",
+								"text": "f(x)在[a,b]上有界<br><br>a = x₀ &lt; x₁ &lt; ... &lt; x₍n₎ = b<br>[a, b] = [x₀, x₁] ∪ [x₁, x₂] ∪ ... ∪ [x₍n-1₎, x₍n₎]<br>2. ∀𝛏𝒾∈[x𝒾-1, x𝒾]<br>Δs𝒾 ≊ f(𝛏𝒾) Δx𝒾<br>n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>作 ∑f(𝛏𝒾)Δx𝒾<br>𝒾=1&nbsp; &nbsp; &nbsp;&nbsp;<br>3. 𝛌=max{Δx₁, Δx₂...}<br>&nbsp; &nbsp; &nbsp; n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>若&nbsp; lim&nbsp; &nbsp; &nbsp;∑f(𝛏𝒾)Δx𝒾&nbsp; ∃<br>𝛌→0&nbsp; &nbsp; 𝒾=1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>称f(x)在[a,b]上科技，极限值称为<br>f(x)在[a,b]的定积分<br><br>记作 ∫b,a f(x)dx<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;n&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>∫b,a f(x)dx ≜&nbsp;lim&nbsp; ∑f(𝛏𝒾)Δx&nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;𝛌→0 𝒾=1&nbsp; &nbsp; &nbsp;&nbsp;<br>",
+								"children": [
+									{
+										"id": "gwxkuplx",
+										"text": "①𝛌 → 0 ⇒ n→∞<br>&nbsp; &nbsp; &nbsp;⇍<br>"
+									},
+									{
+										"id": "kssfahlh",
+										"text": "②<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>lim&nbsp; ∑f(𝛏𝒾)Δx𝒾&nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;𝛌→0 𝒾=1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;与 [a,b]的分法，𝛏𝒾取法无关<br>"
+									},
+									{
+										"id": "trjklreg",
+										"text": "③<br>f(x)有界 不一定 可积<br>"
+									},
+									{
+										"id": "ystnywxz",
+										"text": "🌈④<br>f(x)在[0,1]上可积<br>[0,1] = [0, 1/n] ∪ [1/n, 2/n] ∪...<br><br>1. Δx1 = .. = Δxn = 1/n<br>𝛌 = 1/n, 𝛌 → 0 ⇔ n → ∞<br>2. 𝛏1 = 1/n, 𝛏2 = 2/n, ...<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;n&nbsp;<br>∫(0,1) f(x)dx ≜lim&nbsp; ∑f(𝛏𝒾)Δx𝒾&nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;𝛌→0 𝒾=1&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br>= lim 1/n ∑f(𝒾/n)<br>",
+										"color": "#d3d",
+										"children": [
+											{
+												"id": "abadlqkl",
+												"text": "1.&nbsp;<br>lim(1/√(n²+1) + ... + 1/√(n² + n²))<br>"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "nbbhoaya",
+						"text": "基本定理",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "nobzamie",
+								"text": "1. f(x)∈C[a,b], 𝛟(x)=∫(a,x) f(t)dt, 则𝛟'(x) = f(x)",
+								"children": [
+									{
+										"id": "zujxoaar",
+										"text": "Notes",
+										"children": [
+											{
+												"id": "uaoasyin",
+												"text": "❶<br>d/dx∫(a, 𝞿(x)) f(t)dt = f[𝞿(x)]𝞿'(x)<br>"
+											},
+											{
+												"id": "hpbrcewx",
+												"text": "❷<br>d/dx∫(𝞿₁(x), 𝞿₂(x)) f(t)dt = f[𝞿₂(x)]𝞿₂'(x) -&nbsp;<span style=\"font-size: 14.4px;\">f[𝞿₁(x)]𝞿₁'(x)</span><br>"
+											}
+										]
+									},
+									{
+										"id": "gddvksuf",
+										"text": "例题",
+										"children": [
+											{
+												"id": "ltxahtfd",
+												"text": "🌈原则：表达式中不能有x"
+											},
+											{
+												"id": "xlymsafd",
+												"text": "1.&nbsp;<br>lim [∫(0,x)tcostdt + cosx - 1] / x⁴<br>x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>麦克劳林公式<br>= lim (xcosx - sinx)/4x³<br>∵ xcosx = x - 1/2x³ + o(x³)<br>sinx = x - 1/6x³ + o(x³)<br>∴<span style=\"font-size: 14.4px;\">xcosx - sinx ≊ -1/3x³<br></span>原式 = -1/12<br>"
+											},
+											{
+												"id": "bygopbyh",
+												"text": "2.<br>f(x)连续,f(0) = 0, f'(0) = 𝜋,<br>lim [∫(0,x)tf(x²-t²)dt]/x⁴<br>x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>解：<span style=\"font-size: 14.4px;\">∫(0,x)tf(x²-t²)dt =&nbsp;</span>&nbsp;-1/2<span style=\"font-size: 14.4px;\">∫(0,x)</span><span style=\"font-size: 14.4px;\">f(x²-t²)d</span><span style=\"font-size: 14.4px;\">(x²-t²)</span><span style=\"font-size: 14.4px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br></span><span style=\"font-size: 14.4px;\">令 x²-t² = u&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br></span>= -1/2 ∫(<span style=\"font-size: 14.4px;\">x², 0</span>) f(u)du =&nbsp;<span style=\"font-size: 14.4px;\">1/2 ∫(</span><span style=\"font-size: 14.4px;\">0,</span><span style=\"font-size: 14.4px;\">x²</span><span style=\"font-size: 14.4px;\">) f(u)du&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></span>∴原式 = lim 1/2 f(x²)2x / 4x³<br><span style=\"font-size: 14.4px;\">x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></span>= 1/4&nbsp;<span style=\"font-size: 14.4px;\">lim</span><span style=\"font-size: 14.4px;\">&nbsp;[f(x²)-f(0)]/x² = 1/4f'(0)&nbsp;</span><br><span style=\"font-size: 14.4px;\">x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>= 1/4𝜋<br>"
+											},
+											{
+												"id": "pxhywexu",
+												"text": "3.<br>f(x)连续，𝞿(x) = ∫(0,x) tf(x-t)dt, 求𝞿''(x)<br>令x-t = u<br>= -∫(x, 0)(x-u)f(u)d(u) =&nbsp;<span style=\"font-size: 14.4px;\">∫(0, x)(x-u)f(u)du</span><br>= x<span style=\"font-size: 14.4px;\">∫(0, x)f(u)du -&nbsp;</span><span style=\"font-size: 14.4px;\">∫(0, x)uf(u)du<br></span>𝞿'(x) =&nbsp;<span style=\"font-size: 14.4px;\">∫(0, x)f(u)du + xf(x) - xf(x) =&nbsp;</span><span style=\"font-size: 14.4px;\">∫(0, x)f(u)du<br></span>𝞿''(x) = f(x)<br>"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "glxgefss",
+								"text": "2. N - L f(x)∈C[a,b], F(x)为f(x)原函数<br>则∫(a,b)f(x)dx = F(b) - F(a)<br>"
+							}
+						]
+					},
+					{
+						"id": "gnapehvw",
+						"text": "性质",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "jphaucqw",
+								"text": "一般",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "bhxwbvbo",
+										"text": "1. ∫(a,b)dx = b-a"
+									},
+									{
+										"id": "dherfbej",
+										"text": "2.<br>① f(x) ≧ 0(a ≦ x ≦ b) ⇒ ∫(a,b)f(x)dx ≧ 0<br>②f(x) ≧ g(x)&nbsp; (<span style=\"font-size: 14.4px;\">a ≦ x ≦ b) ⇒<br></span><span style=\"font-size: 14.4px;\">∫(a,b)f(x)dx ≧&nbsp;</span><span style=\"font-size: 14.4px;\">∫(a,b)g(x)dx<br></span><span style=\"font-size: 14.4px;\">🌈③f(x)∈C[a,b],则 |</span><span style=\"font-size: 14.4px;\">∫(a,b)f(x)dx</span><span style=\"font-size: 14.4px;\">| ≦&nbsp;</span><span style=\"font-size: 14.4px;\">∫(a,b)|f(x)|dx</span><span style=\"font-size: 14.4px;\"><br></span>"
+									},
+									{
+										"id": "nackkeiw",
+										"text": "3. <br>积分中值定理 - f(x)∈C[a,b], ∃𝛏∈[a,b],使∫(a,b) f(x)dx = f(𝛏)(b-a)",
+										"children": [
+											{
+												"id": "hukbpcoh",
+												"text": "例题1<br>f(x)∈C[0,1], (0,1)内可导，f(1) = 2∫(0, 1/2)e^(1-x)f(x)dx, 证明：∃𝛏∈(0,1), 使得f'(𝛏) = f(𝛏)<br><br>证明：令𝞿(x) = e⁻ˣf(x)<br><span style=\"font-size: 11.2px;\">f(1) = 2∫(0, 1/2)e^(1-x)f(x)dx<br></span>= 2<span style=\"font-size: 11.2px;\">e^(1-c)f(c)*1/2, c∈[0, 1/2]<br></span>f(1) =&nbsp;<span style=\"font-size: 11.2px;\">e^(1-c)f(c)</span><span style=\"font-size: 11.2px;\">, c∈[0, 1/2]⇒e⁻¹f(1) = e^(-c)f(c)⇒𝞿(c) = 𝞿(1)</span><span style=\"font-size: 11.2px;\">, c∈[0, 1/2]</span><br>"
+											}
+										]
+									},
+									{
+										"id": "ecuguvph",
+										"text": "4.&nbsp;<br>积分中值定理[推广] -&nbsp; f(x)∈C[a,b], 则∃ 𝛏∈(a, b), 使得<br>∫(a,b) f(x)dx = f(𝛏)(b-a)<br>",
+										"children": [
+											{
+												"id": "vqpdpfyq",
+												"text": "例题2<br>f(x)∈C[a, b], (a,b)内可导，f(a) = f(b) = ∫(a,b)f(x)dx = 0<br>证明：∃𝛏∈(a,b)，使得f''(𝛏) = 0.<br><br>证: F(x) = ∫(a,x)f(t)dt, F'(x) = f(x)<br>∵F(a) = F(b) = 0<br>∴∃c∈(a,b),使得F'(c) = 0. ⇒ f(c) = 0;<br><br>f(a) = f(c) = f(b)<br>"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "sktcsaam",
+								"text": "特殊",
+								"children": [
+									{
+										"id": "ioidfsqn",
+										"text": "1. f(x) ∈ C[-a, a], 则<br>∫(-a, a)f(x)dx = ∫(0,a) [f(x)+f(-x)]dx<br>",
+										"children": [
+											{
+												"id": "rnjeqdzo",
+												"text": "Notes",
+												"children": [
+													{
+														"id": "briptkao",
+														"text": "1.<br>出现∫(-a, 0),证明∫(0,a).令x = -t;<br>"
+													},
+													{
+														"id": "owswirts",
+														"text": "2.<br><span style=\"font-size: 12.8px;\">出现∫(a, b),证明∫(a,b).令x+t = a+b;</span><br>"
+													},
+													{
+														"id": "ljvwamhc",
+														"text": "3.<br><span style=\"font-size: 12.8px;\">出现∫(a, b),证明∫(0,1).令x = a+(b-a)t;</span><br>"
+													}
+												]
+											},
+											{
+												"id": "imxjtmbm",
+												"text": "证明：<br>∫(-a, a) f(x)dx = ∫(-a, 0)f(x)dx + ∫(0,a)f(x)dx<br><span style=\"font-size: 12.8px;\">∫(-a, 0)f(x)dx 令 x=-t, ∫(a,0)f(-t)(-dt) = ∫(0,a)f(-x)dx</span><br>"
+											}
+										]
+									},
+									{
+										"id": "dmpcfjpl",
+										"text": "2. <br>①∫(0,𝞹/2)f(sinx)dx =&nbsp;&nbsp;<span style=\"font-size: 12.8px;\">∫(0,𝞹/2)f(cosx)dx</span>",
+										"children": [
+											{
+												"id": "nafwxzcs",
+												"text": "证明：<br><span style=\"font-size: 12.8px;\">∫(0,𝞹/2)f(sinx)dx,令x+t=𝞹/2,∫(𝞹/2,0)f(cost)(-dt)</span><br>"
+											},
+											{
+												"id": "pjtfrsrv",
+												"text": "例题",
+												"color": "#3e3",
+												"children": [
+													{
+														"id": "lessuofh",
+														"text": "例1:<br>lim ( 1/(1+√(n²-1))&nbsp; + ... +&nbsp;<span style=\"font-size: 12.8px;\">1/(n+√(n²-n²))&nbsp;</span>)<br>n→∞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>= lim ∑ 1/(i + √(n² - i²))<br>= lim 1/n ∑[1/(i/n + √(1-(i/n)²))]<br>=∫(0,1) [1/(x+√(1-x²))] dx<br>令 x=sint<br>= ∫(0, 𝞹/2) cost/(sint + cost) dt = I<br>=&nbsp;<span style=\"font-size: 12.8px;\">∫(0, 𝞹/2) sint/(sint + cost) dt<br></span>∴<span style=\"font-size: 12.8px;\">∫(0, 𝞹/2) cost/(sint + cost) dt +&nbsp;</span><span style=\"font-size: 12.8px;\">∫(0, 𝞹/2) sint/(sint + cost) dt = 2I<br></span>∴∫<span style=\"font-size: 12.8px;\">(0, 𝞹/2)dt = 2I<br></span>I = 𝞹/4<br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "jokeqeix",
+										"text": "3.<br>𝐈(n) = ∫(0,𝞹/2) sin<span style=\"font-size: 14.4px;\">ⁿ</span>x dx =&nbsp;<span style=\"font-size: 14.4px;\">∫(0,𝞹/2) cos</span><span style=\"font-size: 14.4px;\">ⁿ</span><span style=\"font-size: 14.4px;\">x&nbsp;</span><span style=\"font-size: 14.4px;\">dx&nbsp;</span><br>① 𝐈(n) = (n-1)/n 𝐈(n-2)<br>② 𝐈(0) = 𝞹/2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>③ 𝐈(1) = 1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>",
+										"children": [
+											{
+												"id": "cmidamoh",
+												"text": "例题",
+												"color": "#3e3",
+												"children": [
+													{
+														"id": "nirztkin",
+														"text": "例1:<br>∫(0,𝞹/2) sin⁸x dx = 𝐈(8) = 7/8 * 5/6 * 3/4 * 1/2 * 𝞹/2<br>"
+													},
+													{
+														"id": "qgbccuys",
+														"text": "例2:<br>∫(0, 𝞹/2) cos¹¹x dx = 𝐈(11) = 10/11 * 8/9 * 6/7 * 4/5 * 2/3 * 1<br>"
+													},
+													{
+														"id": "gtvqswyp",
+														"text": "例3:<br>∫(0,2) x²√(2x - x²) dx<br>=&nbsp;<span style=\"font-size: 14.4px;\">∫(0,2) [(x-1)+1]²&nbsp;</span><span style=\"font-size: 14.4px;\">√(1-(x-1)²) d(x-1)<br></span>= ∫(-1, 1) (x+1)² √(1-x²) dx<br>分析：①<span style=\"font-size: 14.4px;\">√(1-x²) ⇒ 偶函数&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br></span>②<span style=\"font-size: 14.4px;\">(x+1)²的2x ⇒ 奇函数，∵对称区间，所以2x扔掉<br></span>= 2∫⦅0,1⦆ (x²+1)<span style=\"font-size: 14.4px;\">√(1-x²) dx<br></span>令 x = sint<br>= 2∫⦅0, 𝞹/2⦆ (sin²t+1) cos²t dt<br>=&nbsp;<span style=\"font-size: 14.4px;\">2∫⦅0, 𝞹/2⦆ (sin²t+1)&nbsp;</span><span style=\"font-size: 14.4px;\">(1-</span><span style=\"font-size: 14.4px;\">sin²t</span><span style=\"font-size: 14.4px;\">)&nbsp;</span><span style=\"font-size: 14.4px;\">dt<br></span>=&nbsp;<span style=\"font-size: 14.4px;\">2∫⦅0, 𝞹/2⦆&nbsp;(1-sin⁴t)dt<br></span>=&nbsp;<span style=\"font-size: 14.4px;\">2∫⦅0, 𝞹/2⦆dt -&nbsp;</span><span style=\"font-size: 14.4px;\">2∫⦅0, 𝞹/2⦆sin⁴tdt<br></span>= 𝞹 - 2 * 3/4 * 1/2 * 𝞹/2<br>= 5𝞹/8<br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "ozzpccvr",
+										"text": "4.<br>∫⦅0, 𝞹⦆ f(sinx) dx = 2<span style=\"font-size: 14.4px;\">∫⦅0, 𝞹/2⦆ f(sinx) dx</span><br>",
+										"children": [
+											{
+												"id": "qigxwrpd",
+												"text": "例题",
+												"color": "#3e3",
+												"children": [
+													{
+														"id": "pavpmgnm",
+														"text": "例1:<br>∫⦅-𝜋/2, 𝜋/2⦆ sin⁴x/(1+eˣ) dx<br>= ∫⦅0, 𝞹/2⦆ [ sin⁴x/(1+eˣ) + sin⁴x/(1+e⁻ˣ) ]dx<br>= ∫⦅0, 𝞹/2⦆ [1/<span style=\"font-size: 14.4px;\">(1+eˣ) + 1</span><span style=\"font-size: 14.4px;\">/(1+e⁻ˣ)</span>] sin⁴x dx<br>=&nbsp;<span style=\"font-size: 14.4px;\">∫⦅0, 𝞹/2⦆&nbsp;</span><span style=\"font-size: 14.4px;\">sin⁴x dx<br></span>= 3/4 * 1/2 * 𝞹/2<br>"
+													},
+													{
+														"id": "eumpbjoo",
+														"text": "例2:<br>①f(x), g(x)∈C[-a, a], f(x) + f(-x) ≡ A, g(-x) = g(x),证明：∫⦅-a, a⦆f(x)g(x)dx = A∫⦅0,a⦆g(x)dx<br>②求∫⦅-𝞹, 𝞹⦆ arctaneˣ sin²x dx?<br>②解：<span style=\"font-size: 14.4px;\"><br></span>式子&nbsp;<span style=\"font-size: 14.4px;\">∫⦅0, 𝞹⦆ (</span><span style=\"font-size: 14.4px;\">arctaneˣ +&nbsp;</span><span style=\"font-size: 14.4px;\">arctane⁻ˣ</span><span style=\"font-size: 14.4px;\">)&nbsp;</span><span style=\"font-size: 14.4px;\">sin²x dx<br></span>∵<span style=\"font-size: 14.4px;\">(</span><span style=\"font-size: 14.4px;\">arctaneˣ +&nbsp;</span><span style=\"font-size: 14.4px;\">arctane⁻ˣ</span><span style=\"font-size: 14.4px;\">)' =&nbsp;</span><span style=\"font-size: 14.4px;\">eˣ</span><span style=\"font-size: 14.4px;\">/(1+e²ˣ) -&nbsp;</span><span style=\"font-size: 14.4px;\">&nbsp;</span><span style=\"font-size: 14.4px;\">e⁻ˣ</span><span style=\"font-size: 14.4px;\">/(1+e⁻²ˣ) = 0<br></span>∴<span style=\"font-size: 14.4px;\">arctaneˣ +&nbsp;</span><span style=\"font-size: 14.4px;\">arctane⁻ˣ ≡ A<br></span>取x = 0, A = 𝜋/2<br>∴I = 𝞹/2∫⦅0,𝞹⦆sin²x dx =&nbsp;<span style=\"font-size: 14.4px;\">𝞹/2*2∫⦅0, 𝞹/2⦆ sin²x dx = 𝞹*1/2*𝞹/2 = 𝞹²/4</span><br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "zxbpdwjk",
+										"text": "5.<br>f(x)以T为周期连续<br>①∫⦅a, a+T⦆f(x)dx = ∫⦅0, T⦆f(x)dx&nbsp;<br>②∫⦅0, nT⦆ f(x)dx = n∫⦅0, T⦆f(x)dx<br>"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "usshtvzi",
+						"text": "广义积分（反常积分）",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "fbtciide",
+								"text": "正常积分的条件：<br>①积分区间有限<br>②f(x)在积分区间[a,b]上连续或有限个第一类间断点<br>"
+							},
+							{
+								"id": "sjvyduhe",
+								"text": "<span style=\"font-size: 12.8px;\">一 积分区间无限</span><br style=\"font-size: 12.8px;\">",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "aiwehxrs",
+										"text": "❶ f(x)∈C[a, +∞), ∫⦅a, +∞⦆f(x)dx.<br>def - ∫⦅a, b⦆f(x)dx = F(b) - F(a)<br><br>lim[F(b) - F(a)]⎰①= A, ∫⦅a, +∞⦆f(x)dx = A<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b→+∞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⎱②不存在, 发散&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>",
+										"children": [
+											{
+												"id": "izsrvikd",
+												"text": "例1<br>∫⦅1, +∞⦆1/(1+x²) dx<br>= ∫⦅1, b⦆ 1/<span style=\"font-size: 12.8px;\">(1+x²) dx = arctanb - 𝞹/4<br></span>∵lim(<span style=\"font-size: 12.8px;\">arctanb - 𝞹/4</span>) = 𝞹/4<br>b→+∞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>∴<span style=\"font-size: 12.8px;\">∫⦅1, +∞⦆1/(1+x²) dx=𝞹/4</span><br>"
+											},
+											{
+												"id": "esktwocp",
+												"text": "🌈判别法<br>limxªf(x) = C₀ ⎰收敛, a &gt; 1&nbsp; &nbsp;<br>x→+∞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⎱发散, a≦1&nbsp;<br>"
+											}
+										]
+									},
+									{
+										"id": "sjwuyyax",
+										"text": "<span style=\"font-size: 12.8px;\">❷ f(x)∈C(-∞, a], ∫⦅-∞, a⦆f(x)dx.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><br style=\"font-size: 12.8px;\"><span style=\"font-size: 12.8px;\">def -&nbsp;</span><span style=\"font-size: 12.8px;\">∫⦅-∞, a⦆f(x)dx = F(a) - F(b)<br><br></span><span style=\"font-size: 12.8px;\">lim[F(a) - F(b)]⎰①= A, ∫⦅</span><span style=\"font-size: 12.8px;\">-∞, a</span><span style=\"font-size: 12.8px;\">⦆f(x)dx = A</span><br style=\"font-size: 12.8px;\"><span style=\"font-size: 12.8px;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b→-∞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⎱②不存在, 发散&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>",
+										"children": [
+											{
+												"id": "ttzzywrp",
+												"text": "🌈判别法<br><span style=\"font-size: 17.6px;\">limxªf(x) = C₀ ⎰收敛, a &gt; 1&nbsp; &nbsp;<br></span><span style=\"font-size: 17.6px;\">&nbsp;x→-∞&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⎱发散, a≦1&nbsp; &nbsp; &nbsp;</span><br>"
+											}
+										]
+									},
+									{
+										"id": "urlifsix",
+										"text": "❸&nbsp;<span style=\"font-size: 12.8px;\">f(x)∈C(-∞, +∞), ∫⦅-∞, +∞⦆f(x)dx.拆</span><br>&nbsp;<span style=\"font-size: 12.8px;\">∫⦅-∞, +∞⦆f(x)dx收敛 ⇔&nbsp;</span><span style=\"font-size: 12.8px;\">∫⦅a, +∞⦆f(x)dx，</span><span style=\"font-size: 12.8px;\">∫⦅-∞, a⦆f(x)dx皆收敛</span>"
+									}
+								]
+							},
+							{
+								"id": "yqqpsbdw",
+								"text": "二 区间有限",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "wagysaun",
+										"text": "❶ f(x)∈C(a,b]且f(a+0) = ∞, ∫⦅a, b⦆f(x)dx<br>def - ∀𝝴&gt;0, ∫⦅a+𝝴, b⦆ = F(b) - F(a+𝝴)<br><br>lim[F(b) - F(a+𝝴)] ⎰①=A,&nbsp;<span style=\"font-size: 12.8px;\">∫⦅a, b⦆f(x)dx=A<br></span>𝝴→0⁺&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⎱②无, 发散&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>",
+										"children": [
+											{
+												"id": "vwsmggkv",
+												"text": "🌈判别法<br>lim(x-a)ᴬf(x) = C₀⎰收敛，A&lt;1<br>x→a⁺&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⎱发散，A≧1<br>"
+											}
+										]
+									},
+									{
+										"id": "goxgdxca",
+										"text": "❷<span style=\"font-size: 12.8px;\">f(x)∈C[a,b)且f(b-0) = ∞, ∫⦅a, b⦆f(x)dx<br></span><span style=\"font-size: 12.8px;\">def - ∀𝝴&gt;0, ∫⦅a, b-</span><span style=\"font-size: 12.8px;\">𝝴</span><span style=\"font-size: 12.8px;\">⦆ = F(b-</span><span style=\"font-size: 12.8px;\">𝝴</span><span style=\"font-size: 12.8px;\">) - F(a)<br><br></span><span style=\"font-size: 12.8px;\">lim[F(b-𝝴) - F(a)] ⎰①=A,&nbsp;</span><span style=\"font-size: 12.8px;\">∫⦅a, b⦆f(x)dx=A<br></span><span style=\"font-size: 12.8px;\">𝝴→0⁺&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;⎱②无, 发散&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style=\"font-size: 12.8px;\"><br></span>",
+										"children": [
+											{
+												"id": "ihqdfyxs",
+												"text": "🌈判别法<br><span style=\"font-size: 14.4px;\">lim(b-x)ᴬf(x) = C₀⎰收敛，A&lt;1</span><br style=\"font-size: 14.4px;\"><span style=\"font-size: 14.4px;\">x→b⁻&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⎱发散，A≧1</span><br>"
+											}
+										]
+									},
+									{
+										"id": "pzkdimtl",
+										"text": "❸f(x)∈C[a,c)∪(c,b],<br>limf(x) = ∞<br>x→c&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br><span style=\"font-size: 12.8px;\">∫⦅a, b⦆f(x)dx⇔</span><span style=\"font-size: 12.8px;\">∫⦅a, c⦆f(x)dx与</span><span style=\"font-size: 12.8px;\">∫⦅c, b⦆f(x)dx都收敛</span><br>"
+									}
+								]
+							},
+							{
+								"id": "odzhdryg",
+								"text": "例题",
+								"color": "#3e3",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "qlhmerqy",
+										"text": "例1:<br>∫⦅0,2⦆ dx/√(2x - x²)<br>解:&nbsp;<br>∵lim (x-0)^(1/2) * 1/<span style=\"font-size: 14.4px;\">√(2x - x²) = 1/√2且𝞪=1/2<br></span>x→0⁺&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>∵lim(2-x)^(1/2)<span style=\"font-size: 14.4px;\">&nbsp;* 1/</span><span style=\"font-size: 14.4px;\">√(2x - x²) = 1/√2</span><span style=\"font-size: 14.4px;\">且𝞪=1/2<br></span><span style=\"font-size: 14.4px;\">x→2⁻&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></span>∴收敛&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>原式 =&nbsp;<span style=\"font-size: 14.4px;\">∫⦅0,2⦆ dx/√[1-(1-2x + x²) ]<br></span>=&nbsp;<span style=\"font-size: 14.4px;\">∫⦅0,2⦆ d(x-1)/√[1-(x-1)²]<br></span>=&nbsp;<span style=\"font-size: 14.4px;\">∫⦅-1,1⦆ dx/√(1-x²)<br></span>= 2<span style=\"font-size: 14.4px;\">∫⦅0,1⦆&nbsp;dx</span><span style=\"font-size: 14.4px;\">/√(1-x²)<br></span>=&nbsp;<span style=\"font-size: 14.4px;\">2 arcsinx |(0,1) = 𝞹</span><br>"
+									},
+									{
+										"id": "wxzfpvhv",
+										"text": "例2:<br>∫⦅1/2, 3/2⦆ dx/√|x-x²|<br>解：<br>∵lim (x-1)^(1/2) * 1<span style=\"font-size: 14.4px;\">/√|x-x²| = 1, 𝞪 = 1/2 &lt; 1<br></span>x→1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp;∴收敛&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>原式=<span style=\"font-size: 14.4px;\">∫⦅1/2, 3/2⦆ dx/√|-1/4+x-x²+1/4|<br></span>=<span style=\"font-size: 14.4px;\">∫⦅1/2, 3/2⦆ dx/√|(1/2)²-(x-1/2)²|<br></span>=<span style=\"font-size: 14.4px;\">∫⦅0, 1⦆ dx/√|(1/2)²-(x)²|<br></span>=&nbsp;<span style=\"font-size: 14.4px;\">∫⦅0, 1/2⦆ dx/√((1/2)²-(x)²) +&nbsp;</span><span style=\"font-size: 14.4px;\">∫⦅1/2, 1⦆ dx/√((x)²-</span><span style=\"font-size: 14.4px;\">(1/2)²</span><span style=\"font-size: 14.4px;\">)<br>=&nbsp; arcsin2x|(0,1/2) + ln|x+</span><span style=\"font-size: 14.4px;\">√(x²-1/4</span><span style=\"font-size: 14.4px;\">)</span><span style=\"font-size: 14.4px;\">| |(1/2,1)<br></span>= 𝞹/2 + ln(1+√3/2)<br>"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "lpocuftl",
+						"text": "定积分几何应用",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "ozptjwgj",
+								"text": "面积",
+								"children": [
+									{
+										"id": "enhqtpyo",
+										"text": "1. 面积 A = ∫⦅a, b⦆ f(x)dx"
+									},
+									{
+										"id": "vlmzqokd",
+										"text": "2. 扇形面积<br><br>1. [𝞱, 𝞱+d𝞱]∈[𝞪,𝞫]<br>2. dA = 1/2r²(𝞱)d𝞱<br>3. A=∫⦅𝞪,𝞫⦆dA = 1/2∫⦅𝞪,𝞫⦆<span style=\"font-size: 14.4px;\">r²(𝞱)d𝞱</span><br>"
+									},
+									{
+										"id": "wzdweqmd",
+										"text": "3. 2个扇形围成的面积<br><br>A =&nbsp;<span style=\"font-size: 14.4px;\">1/2∫⦅𝞪,𝞫⦆[</span><span style=\"font-size: 14.4px;\">r₂²(𝞱) -&nbsp;</span><span style=\"font-size: 14.4px;\">r₁²(𝞱)</span><span style=\"font-size: 14.4px;\">]d𝞱</span><br>"
+									},
+									{
+										"id": "phyhnuor",
+										"text": "4. L: y = f(x)(a≦x≦b), L绕x轴旋转一周，表面积<br><br>1. [x, x+dx] ∈ [a, b]<br>2. dA = 2𝞹|f(x)|ds<br>=&nbsp;<span style=\"font-size: 14.4px;\">2𝞹|f(x)| √(1+f'²(x)) dx<br></span>3. A =&nbsp;<span style=\"font-size: 14.4px;\">2𝞹</span><span style=\"font-size: 14.4px;\">∫⦅𝞪,𝞫⦆&nbsp;</span><span style=\"font-size: 14.4px;\">|f(x)| √(1+f'²(x)) dx</span><br>"
+									}
+								]
+							},
+							{
+								"id": "xujtexfr",
+								"text": "体积",
+								"children": [
+									{
+										"id": "igupdsdw",
+										"text": "1. L: y = f(x),绕x轴旋转后的体积<br><br>1. [x, x+dx]∈[a, b]<br>2. dVx = 𝞹f²(x)dx<br>3. Vx = 𝞹∫⦅a, b⦆&nbsp;<span style=\"font-size: 14.4px;\">f²(x)dx</span><br>"
+									},
+									{
+										"id": "ljjskwfc",
+										"text": "2.&nbsp;<span style=\"font-size: 14.4px;\">1. L: y = f(x),绕y轴旋转后的体积<br><br></span>1. [x, x+dx]∈[a, b]<br>2. dVy = 2𝞹|x| *|f(x)| * dx<br>3. Vy =&nbsp;<span style=\"font-size: 14.4px;\">2𝞹</span><span style=\"font-size: 14.4px;\">∫⦅a, b⦆&nbsp;</span><span style=\"font-size: 14.4px;\">|x| *|f(x)| * dx</span><br style=\"font-size: 14.4px;\">"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "dhfaxnaz",
+						"text": "题型",
+						"color": "#d3d",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "fcwkcnxf",
+								"text": "型一 计算",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "cdmhhlit",
+										"text": "case 1: 常规<br>",
+										"children": [
+											{
+												"id": "hyzbpnil",
+												"text": "例<span style=\"font-size: 14.4px;\">1. cosx+sinx<br>∫⦅0,𝜋/2⦆ dx/(sinx + cox)</span><br style=\"font-size: 14.4px;\"><span style=\"font-size: 14.4px;\">= 1/√2</span><span style=\"font-size: 17.6px;\">&nbsp;∫⦅0,𝜋/2⦆csc(x+𝞹/4)d(x+𝞹/4)<br></span><span style=\"font-size: 14.4px;\">= 1</span><span style=\"font-size: 17.6px;\">/√2</span><span style=\"font-size: 17.6px;\">&nbsp;∫⦅</span><span style=\"font-size: 17.6px;\">𝞹/4</span><span style=\"font-size: 17.6px;\">,3𝜋/4⦆csc(x)d(x)<br></span><span style=\"font-size: 14.4px;\">=&nbsp;</span><span style=\"font-size: 17.6px;\">1</span><span style=\"font-size: 17.6px;\">/√2 ln|cscx - cotx| ⦅</span><span style=\"font-size: 17.6px;\">𝞹/4</span><span style=\"font-size: 17.6px;\">,3𝜋/4</span><span style=\"font-size: 17.6px;\">⦆</span>"
+											},
+											{
+												"id": "kqttbeko",
+												"text": "例2: 分部积分<br>∫⦅0, 𝞹²⦆ sin√x dx<br>=&nbsp;<span style=\"font-size: 14.4px;\">∫⦅0, 𝞹²⦆ sin√x d(</span><span style=\"font-size: 14.4px;\">√x)²<br></span>= -2<span style=\"font-size: 14.4px;\">∫⦅0, 𝞹⦆xd(cosx)<br></span>= -2xcosx⦅0, 𝞹⦆ + 2<span style=\"font-size: 14.4px;\">∫⦅0, 𝞹⦆cosxdx<br></span>= 2𝞹 + 2sinx<span style=\"font-size: 14.4px;\">⦅0, 𝞹⦆<br></span>=&nbsp;<span style=\"font-size: 14.4px;\">2𝞹</span><br>"
+											}
+										]
+									},
+									{
+										"id": "qrwuldsn",
+										"text": "case 2: 变积分限函数积分",
+										"children": [
+											{
+												"id": "hcygswoe",
+												"text": "例1:<br>f(x) = ∫⦅1, x⦆e^(-t²)dt, 求∫⦅0,1⦆x²f(x)dx<br>解：<span style=\"font-size: 14.4px;\">∫</span><span style=\"font-size: 14.4px;\">⦅0,1⦆x²f(x)dx<br></span>= 1/3<span style=\"font-size: 14.4px;\">∫</span><span style=\"font-size: 14.4px;\">⦅0,1⦆f(x)dx³<br></span>= 1/3f(x)x³⦅0, 1⦆ - 1/3<span style=\"font-size: 14.4px;\">∫</span><span style=\"font-size: 14.4px;\">⦅0,1⦆x³f'(x)dx<br></span>= -1/3<span style=\"font-size: 14.4px;\">∫</span><span style=\"font-size: 14.4px;\">⦅0,1⦆</span><span style=\"font-size: 14.4px;\">x³</span><span style=\"font-size: 14.4px;\">e^(-x²)dx<br></span>=&nbsp;<span style=\"font-size: 14.4px;\">-1/6</span><span style=\"font-size: 14.4px;\">∫</span><span style=\"font-size: 14.4px;\">⦅0,1⦆</span><span style=\"font-size: 14.4px;\">x²</span><span style=\"font-size: 14.4px;\">e^(-x²)dx²<br></span>...<br>"
+											}
+										]
+									},
+									{
+										"id": "dyxucphn",
+										"text": "case 3: 广义积分",
+										"children": [
+											{
+												"id": "xqgeovit",
+												"text": "例1:<br>∫⦅0, +∞⦆ arctanx/[(1+x²)^3/2] dx<br>"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "auwbewhb",
+								"text": "型二 证明",
+								"collapsed": 1,
+								"children": [
+									{
+										"id": "ontkzmwq",
+										"text": "case 1: f(x)连续<br>",
+										"children": [
+											{
+												"id": "mingstbw",
+												"text": "1. f(x)∈C[a,b],∀x,y∈[a,b]，有|f(x) - f(y) | ≦2|x-y|. 证明：|∫⦅a,b⦆f(x)dx - f(a)(b-a)| ≦ (b-a)²<br>证明：f(a)(b-a) = ∫⦅a,b⦆f(a)dx🌈“恢复成有积分”<br>左= |∫⦅a,b⦆[f(x) - f(a)] dx|&nbsp;&nbsp;<br>≦∫⦅a,b⦆|f(x) - f(a)| dx🌈绝对值往里面放<br>≦2∫⦅a,b⦆(x-a)d(x-a) = (x-a)²|⦅a,b⦆ = (b-a)²"
+											},
+											{
+												"id": "qxodesrq",
+												"text": "f(x)连续+单调",
+												"children": [
+													{
+														"id": "prhfrdnh",
+														"text": "例1:<br>f(x)∈C[a,b]↑, 证明：∫⦅a,b⦆xf(x)dx ≧ (a+b)/2∫⦅a,b⦆f(x)dx<br><br>证明：𝞿(x) = ∫⦅a,x⦆tf(t)dt - (a+x)/2∫⦅a,x⦆f(t)dt<br>𝞿(a) = 0<br>𝞿'(x) = xf(x) - 1/2∫⦅a,x⦆f(t)dt - (a+x)/2f(x)<br>= (x-a)/2f(x) - 1/2∫⦅a,x⦆f(t)dt<br>= (x-a)/2f(x) - 1/2f(𝛏)(x-a) 𝛏∈(a, x)🌈积分中值定理<br>= (x-a)/2[f(x) - f(𝛏)] ≧ 0<br><br>∵𝞿(a) = 0, 𝞿'(x) ≧ 0<br>∴∫⦅a,b⦆xf(x)dx ≧ (a+b)/2∫⦅a,b⦆f(x)dx<br>"
+													},
+													{
+														"id": "plfolbrc",
+														"text": "例2:<br>f(x)∈C[0,1]↓, 0 &lt; 𝞪 &lt; 1.<br>证明：∫⦅0,𝞪⦆f(x)dx ≧ 𝞪∫⦅0,1⦆f(x)dx<br><br>法一🌈：积分限一样时，被积函数的大小<br>令x = 𝞪t， ∫⦅0, 𝞪⦆f(x)dx = 𝞪∫⦅0, 1⦆f(𝞪t)dt<br>∵f(𝞪x) ≧ f(x)<br><br>法二：左-右 = ∫⦅0,𝞪⦆f(x)dx - 𝞪∫⦅0,1⦆f(x)dx<br>= (1-𝞪)∫⦅0,𝞪⦆f(x)dx - 𝞪∫⦅𝞪, 1⦆f(x)dx<br>= (1-𝞪)𝞪f(𝛏1) - 𝞪(1-𝞪)f(𝛏2) 𝛏1∈[0, 𝞪], 𝛏2∈[𝞪,1]🌈积分中值定理<br>= 𝞪(1-𝞪)(f(𝛏1) - f(𝛏2))<br>∵f(𝛏1) ≧ f(𝛏2)<br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "vhxalzjt",
+										"text": "case 2:f(x)可导<br>工具：🌈<br>⎰①f(x) - f(a) = f'(𝛏)(x-a)&nbsp; &nbsp; &nbsp; &nbsp;<br>⎱②f(x) - f(a) = ∫⦅a,x⦆f'(t)dt<br><br>技巧：<br>①含绝对值，|∫⦅a,b⦆fdx| ≦ ∫⦅a,b⦆|f|dx<br>②两边积分&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>",
+										"children": [
+											{
+												"id": "pdrccyjq",
+												"text": "例1:<br>f'(x)∈C[0,a], f(0) = 0, |f'(x)| ≦ M,证明：|∫⦅0,a⦆f(x)dx| ≦ M/2*a²<br>证明：<br>f(x) = f(x) - f(0) = f'(𝛏)x(0 &lt; 𝛏 &lt; x)<br>|∫⦅0,a⦆f(x)dx| ≦ ∫⦅0,a⦆|f(x)|dx = ∫⦅0,a⦆|f'(𝛏)|xdx ≦ M∫⦅0,a⦆xdx = M/2 * a²<br>"
+											},
+											{
+												"id": "ddvohphv",
+												"text": "例2:<br>f'(x)∈C[a,b], f(a) = f(b) = 0. a &lt; c &lt; b.证明:|f(c)|&nbsp; ≦ 1/2∫⦅a,b⦆|f'(x)|dx<br>证明：🌈分析 =&gt;&nbsp; 牛顿莱布尼茨公式 + 3个点（2次L）<br>f(c) - f(a) = ∫⦅a, c⦆f'(x)dx<br>f(b) - f(c) = ∫⦅c, b⦆f'(x)dx<br><br>∴|f(c)| ≦ ∫⦅a, c⦆|f'(x)|dx&nbsp; &nbsp; &nbsp;<br>|f(c)| ≦ ∫⦅c, b⦆|f'(x)|dx&nbsp;<br>"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "jiieoink",
+								"text": "型三 几何应用<br>",
+								"children": [
+									{
+										"id": "xfrcooka",
+										"text": "①圆<br>x² + y² = a² ⇔ r = a<br>x² + y² = 2ax ⇔ r = 2acos𝞱<br>x² + y² = 2ay ⇔ r = 2asin𝞱<br>"
+									},
+									{
+										"id": "yxlttdfs",
+										"text": "②双流线<br>(x²+y²)² = a²(x²-y²)<br>⇔ r² = a²cos2𝞱<br>"
+									},
+									{
+										"id": "ckcfpbdy",
+										"text": "例题",
+										"color": "#3e3",
+										"children": [
+											{
+												"id": "zgtfnfxb",
+												"text": "例1<br>L1: x² + y² = a²/2外；<br>L2: (x²+y²)² = a²(x²-y²)内<br>围成的面积？<br>解：<br>L1: r² = a²/2, L2: r² = a²cos2𝞱<br>🌈极坐标解题步骤：<br>1. 画图<br>2. 角的范围<br>"
+											},
+											{
+												"id": "irdlkkts",
+												"text": "例2:<br>P97笔记本<br>"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "prjbnzli",
+						"text": "其他",
+						"color": "#fa3",
+						"children": [
+							{
+								"id": "rvkgocsc",
+								"text": "sinx + cosx = √2(√2/2sinx +&nbsp;<span style=\"font-size: 17.6px;\">√2/2cosx) = √2sin(x+𝞹/4)</span>"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "wdgaorjq",
+				"text": "8. 多元微分学",
+				"side": "right",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "bpagdlip",
+						"text": "1. defs",
+						"children": [
+							{
+								"id": "qypcnfmk",
+								"text": "极限",
+								"children": [
+									{
+										"id": "eratdiha",
+										"text": "一元： 若∀𝞮&gt;0, ∃Δ&gt;0, 当0 &lt; |x-a| &lt; Δ时，|f(x) - A| &lt;𝞮,<br>则limf(x) = A;<br>x→a&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>",
+										"children": [
+											{
+												"id": "bkgjpkoh",
+												"text": "Notes",
+												"children": [
+													{
+														"id": "ghvfricn",
+														"text": "① <br>x→a ⇒&nbsp;<br>x != a;<br>x→a⁻, x→a⁺<br>"
+													},
+													{
+														"id": "kxnfbgdz",
+														"text": "②<br>limf(x)与f(a)无关<br>x→a&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>"
+													},
+													{
+														"id": "knjtltaq",
+														"text": "③<br>limf(x)≜f(a-0)<br>x→a⁻&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>limf(x)≜f(a+0)<br>x→a⁺&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br><br>limf(x)∃ ⇔&nbsp; f(a-0), f(a+0)∃且相等<br>x→a&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "lrvmttds",
+										"text": "二元：𝝵 = f(x, y)， M₀(x₀, y₀), 若∀𝞮&gt;0, ∃Δ &gt; 0, 当0 &lt; √[(x-x₀)²+(y-y₀)²] &lt; Δ时，有|f(x,y) - A| &lt; 𝞮.<br>则limf(x,y) = A<br>x→x₀&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>y→y₀&nbsp; &nbsp; &nbsp; &nbsp;<br>",
+										"children": [
+											{
+												"id": "urgwuuen",
+												"text": "例1:<br>lim[√(4+xy) - 2]/x<br>x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>y→2&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>= 2lim[√(4+xy) - 2]/xy<br>x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>y→2&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>= 2lim[√(4+t) - 2]/t<br>t→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>...&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>"
+											},
+											{
+												"id": "pflujvrs",
+												"text": "例2:<br>f(x,y) = ⎰xy/(x²+y²),&nbsp; (x,y) != (0,0)<br>⎱0,&nbsp; &nbsp; &nbsp; (x,y) = (0,0)<br>求limf(x,y)?<br>x→0&nbsp; &nbsp; &nbsp;&nbsp;<br>y→0&nbsp; &nbsp; &nbsp;<br>解：<br>limf(x,y) = 1/2<br>x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>y=x&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><span style=\"font-size: 14.4px;\">limf(x,y) = -1/2</span><br style=\"font-size: 14.4px;\"><span style=\"font-size: 14.4px;\">x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><br style=\"font-size: 14.4px;\"><span style=\"font-size: 14.4px;\">y=-x&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></span>∴没有极限<br>"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "wzcqsjmy",
+								"text": "连续",
+								"children": [
+									{
+										"id": "mzlbxiwn",
+										"text": "一元：y=f(x)(x∈D), x₀∈D,<br>If limf(x) = f(x₀),<br>x→x₀&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>称f(x)在x=x₀处连续。<br>",
+										"children": [
+											{
+												"id": "twhwsuzo",
+												"text": "Notes",
+												"children": [
+													{
+														"id": "uhpbphbc",
+														"text": "f(x)在 x=x₀处连续<br>⇔ f(x₀) = f(x₀+0) =nf(x₀-0)<br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "uzmgixks",
+										"text": "二元：𝝵 = f(x,y) (x,y)∈D, M₀(x₀,y₀)∈D<br>If limf(x,y) = f(x₀, y₀)<br>x→x₀&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>y→y₀&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>称f(x)在M₀处连续<br>"
+									}
+								]
+							},
+							{
+								"id": "iliiziwg",
+								"text": "偏导数",
+								"children": [
+									{
+										"id": "ksiurzdk",
+										"text": "一元：y = f(x)(x∈D), x₀∈D,<br>If lim Δy/Δx ∃,<br>Δx→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>称f(x)在x₀处可导<br>记作：lim&nbsp;<span style=\"font-size: 14.4px;\">Δy/Δx ≜ f'(x₀), dy/dx|x=x₀<br></span><span style=\"font-size: 17.6px;\">Δx→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><br>",
+										"children": [
+											{
+												"id": "ijkqyitd",
+												"text": "Notes",
+												"children": [
+													{
+														"id": "ufrvnjqe",
+														"text": "①f'(x₀) = lim (f(x) - f(x₀))/(x-x₀)<br>x→x₀&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>"
+													},
+													{
+														"id": "obycjzpd",
+														"text": "②<br>lim&nbsp;<span style=\"font-size: 11.2px;\">Δy/Δx = f'₋(x₀)<br>Δx→0⁻&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></span><span style=\"font-size: 11.2px;\">lim&nbsp;</span><span style=\"font-size: 11.2px;\">Δy/Δx = f'₊(x₀)<br></span><span style=\"font-size: 11.2px;\">Δx→0⁺&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>f'(x₀)∃ ⇔&nbsp;</span><span style=\"font-size: 11.2px;\">f'₋(x₀),&nbsp;</span><span style=\"font-size: 11.2px;\">f'₊(x₀)∃且相等</span><span style=\"font-size: 11.2px;\"><br></span>"
+													},
+													{
+														"id": "ulttoffi",
+														"text": "③<br>可导&nbsp; &nbsp;⇒&nbsp; 连续<br>⇍<br>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "dhmxhvek",
+										"text": "二元：𝝵 = f(x,y)((x,y) ∈ D), M₀(x₀, y₀)∈D<br>①Δ𝝵x ≜ f(x₀+Δx, y₀) - f(x₀, y₀)<br>f(x,y)在M₀处关于x的偏增量；<br>②Δ𝝵y ≜ f(x₀, y₀+Δy) - f(x₀, y₀)<br>f(x,y)在M₀处关于y的偏增量；<br>③Δ𝝵 ≜ f(x₀+Δx, y₀+Δy) - f(x₀, y₀)<br>f(x,y)在M₀处全增量。<br><br>❶limΔ𝝵x/Δx ≜ f'x(x₀,y₀), 𝛛𝝵/𝛛x|M₀<br>Δx→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>❷limΔ𝝵y/Δy ≜ f'y(x₀,y₀), 𝛛𝝵/𝛛y|M₀<br>Δy→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>",
+										"children": [
+											{
+												"id": "dbkafveh",
+												"text": "Notes",
+												"children": [
+													{
+														"id": "hbaaclak",
+														"text": "f'x(x₀,y₀) = lim[f(x, y₀)-f(x₀,y₀)]/(x-x₀)<br>x→x₀&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>如：𝝵 = x³ - 2x²y + 2y²<br>𝛛𝝵/𝛛x = 3x² - 4yx<br>𝞉𝝵/𝞉y = -2x² + 4y<br>"
+													},
+													{
+														"id": "wbbuldho",
+														"text": "Q1 f(x,y)连续&nbsp; &nbsp;？⇒&nbsp; &nbsp;可偏导 ❌<br>反例：𝝵 = f(x,y) = √(x² + y²)在(0,0)连续<br>lim [f(x, 0) - f(0,0)] / (x - 0) = lim |x|/x 不存在<br>x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>"
+													},
+													{
+														"id": "prwmxgnx",
+														"text": "Q2 f(x,y）可偏导 ？⇒ 连续 ❌<br>反例：f(x,y) = ⎰xy/(x²+y²) (x,y) != (0, 0)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>⎱0,&nbsp; &nbsp;(x,y) = (0, 0)<br>lim [f(x, 0) - f(0, 0)]/(x - 0) = 0<br>x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>同理<br><span style=\"font-size: 14.4px;\">lim [f(0, y) - f(0, 0)]/(x - 0) = 0</span><br style=\"font-size: 14.4px;\"><span style=\"font-size: 14.4px;\">y→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br></span>即f(x,y)在(0,0)处对x，y都可偏导<br>---------------------------------------<br>limf(x,y) = 1/2<br>x→0<br>y=x<br><br><span style=\"font-size: 14.4px;\">limf(x,y) = -1/2</span><br style=\"font-size: 14.4px;\"><span style=\"font-size: 14.4px;\">x→0</span><br style=\"font-size: 14.4px;\"><span style=\"font-size: 14.4px;\">y=-x<br></span>∴limf(x,y)不存在，而f(0,0) = 0<br>∴limf(x,y) != f(0,0)<br>x→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>y→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>🌈多元函数连续，则需要任意方向来的极限都相等才行。<br>而，偏导数只是x或者y轴2个方向。所以可偏导退不出连续来<br>"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "arfjyyrb",
+								"text": "可（全）微",
+								"children": [
+									{
+										"id": "ippqlaaw",
+										"text": "一元：y = f(x) (x∈D), x₀∈D, Δy = f(x₀+Δx) - f(x₀)<br>≟ AΔx +o(Δx)<br>称f(x)在x = x₀处可微；AΔx ≜ dy|x=x₀<br>",
+										"children": [
+											{
+												"id": "lhhjsqum",
+												"text": "Notes",
+												"children": [
+													{
+														"id": "icoszlll",
+														"text": "①可导 ⇔ 可微"
+													},
+													{
+														"id": "pgwafchc",
+														"text": "②A = f'(x₀)"
+													},
+													{
+														"id": "ztehdple",
+														"text": "③y = f(x)可微，dy = df(x) = f'(x)dx"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "ytsaynpj",
+										"text": "二元：𝝵 =&nbsp; f(x,y) ((x,y) ∈ D) M₀(x₀, y₀)∈D<br>Δ𝝵 = f(x₀+Δx, y₀+Δy) - f(x₀, y₀)<br>If = AΔx + BΔy + o(𝛒), 𝛒 = √(Δx² + Δy²)<br><br>称f(x,y)在M₀处可（全）微。<br><br>AΔx + BΔy ≜ d𝝵|M₀<br>Adx + Bdy&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>",
+										"children": [
+											{
+												"id": "tsdhquym",
+												"text": "Notes",
+												"children": [
+													{
+														"id": "nrrjucvw",
+														"text": "① 可偏导是可微的必要不充分条件；"
+													},
+													{
+														"id": "zmfkfzjr",
+														"text": "②Δ𝝵 = AΔx + BΔy + o(𝛒), 则A = f'x(x₀, y₀), B = f'y(x₀, y₀)"
+													},
+													{
+														"id": "wimipdmx",
+														"text": "③若可偏导，则<br>可微 ⇔ lim (Δ𝝵 - AΔx - BΔy)/𝛒 = 0<br>𝛒→0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "xskyqcie",
+						"text": "2. 理论",
+						"children": [
+							{
+								"id": "ifbtnnjl",
+								"text": "连续&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;可偏导<br>↖︎&nbsp; &nbsp; ↗︎<br>可微<br>↑<br>连续可偏导<br>（🌈意思是偏导数是连续的）<br>",
+								"children": [
+									{
+										"id": "trcrytog",
+										"text": "证明 ① 可微 ⇒ 连续<br>Δ𝝵 = f(x,y) - f(x₀, y₀)<br>= A(x-x₀) + B(y-y₀) + o(√[(x-x₀)² + (y-y₀)²])<br>∵lim Δ𝝵 = 0<br>x→x₀&nbsp; &nbsp; &nbsp; &nbsp;<br>y→y₀&nbsp; &nbsp; &nbsp;&nbsp;<br>∴lim f(x,y) = f(x₀, y₀)<br><span style=\"font-size: 14.4px;\">x→x₀&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><br style=\"font-size: 14.4px;\"><span style=\"font-size: 14.4px;\">y→y₀&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><br>"
+									},
+									{
+										"id": "prbrbpqn",
+										"text": "证明②可微⇒可偏导<br>Δ𝝵 = f(x₀+Δx, y₀+Δy) -&nbsp;<span style=\"font-size: 14.4px;\">f(x₀, y₀)<br></span>= AΔx + BΔy + o(𝛒)<br>取Δy = 0 ⇒&nbsp;<span style=\"font-size: 12.8px;\">Δ𝝵x = AΔx + o(Δx)<br></span><span style=\"font-size: 14.4px;\">lim</span><span style=\"font-size: 12.8px;\">Δ𝝵x /Δx = A<br></span><span style=\"font-size: 12.8px;\">Δx → 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style=\"font-size: 14.4px;\"><br></span>"
+									}
+								]
+							},
+							{
+								"id": "beudkbvz",
+								"text": "𝝵 = f(x,y)二阶连续可偏导，则<br>𝞉²𝝵/𝛛x𝛛y =&nbsp;<span style=\"font-size: 12.8px;\">𝞉²𝝵/𝛛y𝛛x</span><br>"
+							}
+						]
+					},
+					{
+						"id": "nqfbmjad",
+						"text": "3. 求偏导的类型",
+						"children": [
+							{
+								"id": "qdmpsapw",
+								"text": "一 显函数 𝝵 = f(x,y)",
+								"children": [
+									{
+										"id": "fdkgvjkn",
+										"text": "例1: 𝝵 = arctan²(x+y)/(x-y)"
+									}
+								]
+							},
+							{
+								"id": "qqepjmcv",
+								"text": "二 复合函数"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
